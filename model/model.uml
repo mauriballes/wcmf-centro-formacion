@@ -2273,12 +2273,12 @@
   <Chronos:ChiSystem xmi:id="_dVkAkEZOEeeLZa5OKBzA3A" plattform="wcmf" config="security.ini" base_Class="_dVhkUEZOEeeLZa5OKBzA3A"/>
   <Chronos:ChiNode xmi:id="_N1DLIEtTEee-k9JiBTO3-w" base_Class="_EftzcEtTEee-k9JiBTO3-w"/>
   <Chronos:ChiNode xmi:id="_PallkEtTEee-k9JiBTO3-w" base_Class="_IURDIEtTEee-k9JiBTO3-w"/>
-  <Chronos:ChiValue xmi:id="_FJQqQEtUEee-k9JiBTO3-w" base_Property="_dOhPgEtTEee-k9JiBTO3-w"/>
-  <Chronos:ChiValue xmi:id="_IouawEtUEee-k9JiBTO3-w" base_Property="_nt4xYEtTEee-k9JiBTO3-w"/>
-  <Chronos:ChiValue xmi:id="_Jgr9gEtUEee-k9JiBTO3-w" base_Property="_6CLoIEtTEee-k9JiBTO3-w"/>
-  <Chronos:ChiValue xmi:id="_LNPl8EtUEee-k9JiBTO3-w" base_Property="_Aw9NQEtUEee-k9JiBTO3-w"/>
-  <Chronos:ChiValue xmi:id="_qm9a0EtUEee-k9JiBTO3-w" base_Property="_Qt6ZMEtUEee-k9JiBTO3-w"/>
-  <Chronos:ChiValue xmi:id="_rfrykEtUEee-k9JiBTO3-w" base_Property="_apZK4EtUEee-k9JiBTO3-w"/>
-  <Chronos:ChiValue xmi:id="_sYDlAEtUEee-k9JiBTO3-w" base_Property="_gNKVcEtUEee-k9JiBTO3-w"/>
-  <Chronos:ChiValue xmi:id="_tVBjkEtUEee-k9JiBTO3-w" base_Property="_me9qsEtUEee-k9JiBTO3-w"/>
+  <Chronos:ChiValue xmi:id="_FJQqQEtUEee-k9JiBTO3-w" is_editable="true" restrictions_match="required" base_Property="_dOhPgEtTEee-k9JiBTO3-w"/>
+  <Chronos:ChiValue xmi:id="_IouawEtUEee-k9JiBTO3-w" db_data_type="INT" is_editable="true" restrictions_match="required" base_Property="_nt4xYEtTEee-k9JiBTO3-w"/>
+  <Chronos:ChiValue xmi:id="_Jgr9gEtUEee-k9JiBTO3-w" is_editable="true" restrictions_match="required" base_Property="_6CLoIEtTEee-k9JiBTO3-w"/>
+  <Chronos:ChiValue xmi:id="_LNPl8EtUEee-k9JiBTO3-w" db_data_type="INT" is_editable="true" restrictions_match="required" base_Property="_Aw9NQEtUEee-k9JiBTO3-w"/>
+  <Chronos:ChiValue xmi:id="_qm9a0EtUEee-k9JiBTO3-w" is_editable="true" restrictions_match="required" base_Property="_Qt6ZMEtUEee-k9JiBTO3-w"/>
+  <Chronos:ChiValue xmi:id="_rfrykEtUEee-k9JiBTO3-w" db_data_type="INT" is_editable="true" restrictions_match="required" base_Property="_apZK4EtUEee-k9JiBTO3-w"/>
+  <Chronos:ChiValue xmi:id="_sYDlAEtUEee-k9JiBTO3-w" db_data_type="DATE" is_editable="true" input_type="date" restrictions_match="required" base_Property="_gNKVcEtUEee-k9JiBTO3-w"/>
+  <Chronos:ChiValue xmi:id="_tVBjkEtUEee-k9JiBTO3-w" db_data_type="INT" is_editable="true" restrictions_match="required" base_Property="_me9qsEtUEee-k9JiBTO3-w"/>
 </xmi:XMI>
