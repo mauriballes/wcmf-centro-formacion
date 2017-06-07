@@ -88,7 +88,7 @@ $messages_en['Confirm Object Deletion'] = '';
 // file(s): src/model/_base/ChapterRDBMapper.php
 $messages_en['content'] = '';
 // file(s): public/js/ui/data/EntityListPage.js, public/js/ui/data/EntityPage.js, public/js/ui/link/BrowsePage.js, public/js/ui/link/template/BrowsePage.html, public/js/ui/media/template/BrowsePage.html, public/js/ui/_include/widget/template/NavigationWidget.html
-$messages_en['Content'] = '';
+$messages_en['Content'] = 'Casos de Uso';
 // file(s): src/model/wcmf/_base/PermissionRDBMapper.php
 $messages_en['context'] = '';
 // file(s): application/controller/CopyController.php
@@ -204,7 +204,7 @@ $messages_en['language'] = '';
 // file(s): src/model/wcmf/_base/LanguageRDBMapper.php
 $messages_en['Language [Pl.]'] = 'Languages';
 // file(s): public/js/ui/home/template/HomePage.html
-$messages_en['Last Updates'] = '';
+$messages_en['Last Updates'] = 'Ultimas Acciones';
 // file(s): public/js/ui/home/HomePage.js, src/model/_base/AuthorRDBMapper.php, src/model/_base/BookRDBMapper.php, src/model/_base/ChapterRDBMapper.php, src/model/_base/ImageRDBMapper.php, src/model/_base/PublisherRDBMapper.php
 $messages_en['last_editor'] = '';
 // file(s): public/js/ui/data/EntityListPage.js
@@ -520,7 +520,7 @@ $messages_en['User [Pl.]'] = 'Users';
 // file(s): src/model/wcmf/_base/UserConfigRDBMapper.php
 $messages_en['value'] = '';
 // file(s): public/js/ui/home/template/HomePage.html
-$messages_en['Welcome'] = '';
+$messages_en['Welcome'] = 'Bienvenido';
 // file(s): src/model/_base/BookRDBMapper.php
 $messages_en['year'] = '';
 // file(s): public/js/ui/_include/widget/template/LoginDlgWidget.html
@@ -531,4 +531,13 @@ $messages_en['_displayValue'] = 'object';
 $messages_en['_summary'] = 'summary';
 // file(s): public/js/ui/home/HistoryEntry.js, public/js/ui/home/HomePage.js, public/js/ui/search/SearchResult.js, public/js/ui/search/SearchResultPage.js
 $messages_en['_type'] = 'type';
+// Mis Traducciones
+$messages_en['Alumno [Pl.]'] = 'Alumno';
+$messages_en['Asistencia [Pl.]'] = 'Asistencia';
+$messages_en['Aula [Pl.]'] = 'Aula';
+$messages_en['Grupo [Pl.]'] = 'Grupo';
+$messages_en['Horario [Pl.]'] = 'Horario';
+$messages_en['Kardex [Pl.]'] = 'Kardex';
+$messages_en['Materia [Pl.]'] = 'Materia';
+$messages_en['Profesor [Pl.]'] = 'Profesor';
 ?>
