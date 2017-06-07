@@ -2013,6 +2013,7 @@
               <packagedElement xmi:type="uml:Class" xmi:id="_EJFbIEteEee1hL0YESvRuA" name="Grupo">
                 <generalization xmi:type="uml:Generalization" xmi:id="_VNpvYEteEee1hL0YESvRuA" general="_ylwfELQ4EeOQ5oJFa1i8cg"/>
                 <ownedAttribute xmi:type="uml:Property" xmi:id="_JtTRoEteEee1hL0YESvRuA" name="nombre" type="_agg3ALQwEeOLlbB2YLI0iw" isUnique="false"/>
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_lB_x4EteEee1hL0YESvRuA" name="precio" type="_dbezULQwEeOLlbB2YLI0iw" isUnique="false"/>
               </packagedElement>
             </packagedElement>
             <packagedElement xmi:type="uml:Package" xmi:id="_B7Q5IPu5EeOmMdys2glKCA" name="controller">
@@ -2286,5 +2287,6 @@
   <Chronos:ChiValue xmi:id="_sYDlAEtUEee-k9JiBTO3-w" db_data_type="DATE" is_editable="true" input_type="date" restrictions_match="required" base_Property="_gNKVcEtUEee-k9JiBTO3-w"/>
   <Chronos:ChiValue xmi:id="_tVBjkEtUEee-k9JiBTO3-w" db_data_type="INT" is_editable="true" restrictions_match="required" base_Property="_me9qsEtUEee-k9JiBTO3-w"/>
   <Chronos:ChiNode xmi:id="_GnGVsEteEee1hL0YESvRuA" base_Class="_EJFbIEteEee1hL0YESvRuA"/>
-  <Chronos:ChiValue xmi:id="_S9LhkEteEee1hL0YESvRuA" base_Property="_JtTRoEteEee1hL0YESvRuA"/>
+  <Chronos:ChiValue xmi:id="_S9LhkEteEee1hL0YESvRuA" is_editable="true" restrictions_match="required" base_Property="_JtTRoEteEee1hL0YESvRuA"/>
+  <Chronos:ChiValue xmi:id="_pknogEteEee1hL0YESvRuA" db_data_type="INT" is_editable="true" restrictions_match="required" base_Property="_lB_x4EteEee1hL0YESvRuA"/>
 </xmi:XMI>

@@ -300,6 +300,10 @@
           <element xmi:type="uml:Property" href="model.uml#_JtTRoEteEee1hL0YESvRuA"/>
           <layoutConstraint xmi:type="notation:Location" xmi:id="_Jtp28UteEee1hL0YESvRuA"/>
         </children>
+        <children xmi:type="notation:Shape" xmi:id="_lCVwIEteEee1hL0YESvRuA" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="model.uml#_lB_x4EteEee1hL0YESvRuA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_lCVwIUteEee1hL0YESvRuA"/>
+        </children>
         <styles xmi:type="notation:TitleStyle" xmi:id="_EJYWEUteEee1hL0YESvRuA"/>
         <styles xmi:type="notation:SortingStyle" xmi:id="_EJYWEkteEee1hL0YESvRuA"/>
         <styles xmi:type="notation:FilteringStyle" xmi:id="_EJYWE0teEee1hL0YESvRuA"/>
