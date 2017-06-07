@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.1" xmlns:xmi="http://www.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Chronos="http:///schemas/Chronos/_jAH0gM-nEd6fypAGO026Fw/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xsi:schemaLocation="http:///schemas/Chronos/_jAH0gM-nEd6fypAGO026Fw/0 chronos.profile.uml#_jARlgc-nEd6fypAGO026Fw">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Chronos="http:///schemas/Chronos/_jAH0gM-nEd6fypAGO026Fw/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/Chronos/_jAH0gM-nEd6fypAGO026Fw/0 chronos.profile.uml#_jARlgc-nEd6fypAGO026Fw">
   <uml:Model xmi:id="_ItyOULQGEeOIMOFxCilDfw" name="model">
     <packagedElement xmi:type="uml:Package" xmi:id="_e7sa8LQGEeOIMOFxCilDfw" name="wcmf test">
       <packagedElement xmi:type="uml:Package" xmi:id="_krkH0LQGEeOIMOFxCilDfw" name="root">
@@ -1687,7 +1687,7 @@
                 <ownedAttribute xmi:type="uml:Property" xmi:id="_fcwjmavwEeaQUopA1XIUeQ" name="rootTypes" visibility="public" type="_agg3ALQwEeOLlbB2YLI0iw">
                   <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fcwjmqvwEeaQUopA1XIUeQ" value="1"/>
                   <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fcwjm6vwEeaQUopA1XIUeQ" value="1"/>
-                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_fcwjnKvwEeaQUopA1XIUeQ" value="{Author, Book, Publisher}"/>
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_fcwjnKvwEeaQUopA1XIUeQ" value="{}"/>
                 </ownedAttribute>
               </packagedElement>
             </packagedElement>
@@ -1996,137 +1996,19 @@
                   </defaultValue>
                 </ownedAttribute>
               </packagedElement>
-              <packagedElement xmi:type="uml:Class" xmi:id="_BDrKMLU2EeORdpT3S9OOtw" name="Publisher">
-                <ownedComment xmi:type="uml:Comment" xmi:id="_mKrfwLU7EeORdpT3S9OOtw" annotatedElement="_BDrKMLU2EeORdpT3S9OOtw">
-                  <body>A publisher publishes books.</body>
-                </ownedComment>
-                <generalization xmi:type="uml:Generalization" xmi:id="_TyMXcLU5EeORdpT3S9OOtw" general="_ylwfELQ4EeOQ5oJFa1i8cg"/>
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_UsqjALU2EeORdpT3S9OOtw" name="name" type="_agg3ALQwEeOLlbB2YLI0iw"/>
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_GeDA0bU5EeORdpT3S9OOtw" name="" type="_BTThoLU2EeORdpT3S9OOtw" aggregation="composite" association="_GeDA0LU5EeORdpT3S9OOtw">
-                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GeDA0rU5EeORdpT3S9OOtw"/>
-                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GeDA07U5EeORdpT3S9OOtw" value="*"/>
-                </ownedAttribute>
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_bEECkbU5EeORdpT3S9OOtw" name="" type="_BJe3QLU2EeORdpT3S9OOtw" aggregation="composite" association="_bEECkLU5EeORdpT3S9OOtw">
-                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bEECkrU5EeORdpT3S9OOtw" value="1"/>
-                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bEECk7U5EeORdpT3S9OOtw" value="*"/>
-                </ownedAttribute>
+              <packagedElement xmi:type="uml:Class" xmi:id="_EftzcEtTEee-k9JiBTO3-w" name="Alumno">
+                <generalization xmi:type="uml:Generalization" xmi:id="_X0i6IEtTEee-k9JiBTO3-w" general="_ylwfELQ4EeOQ5oJFa1i8cg"/>
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_nt4xYEtTEee-k9JiBTO3-w" name="ci" type="_dbezULQwEeOLlbB2YLI0iw" isUnique="false"/>
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_dOhPgEtTEee-k9JiBTO3-w" name="nombres" type="_agg3ALQwEeOLlbB2YLI0iw" isUnique="false"/>
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_6CLoIEtTEee-k9JiBTO3-w" name="direccion" type="_agg3ALQwEeOLlbB2YLI0iw" isUnique="false"/>
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_Aw9NQEtUEee-k9JiBTO3-w" name="telefono" type="_dbezULQwEeOLlbB2YLI0iw" isUnique="false"/>
               </packagedElement>
-              <packagedElement xmi:type="uml:Class" xmi:id="_BGWqwLU2EeORdpT3S9OOtw" name="Author">
-                <generalization xmi:type="uml:Generalization" xmi:id="_UWbF4LU5EeORdpT3S9OOtw" general="_ylwfELQ4EeOQ5oJFa1i8cg"/>
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_rq2WALU2EeORdpT3S9OOtw" name="name" type="_agg3ALQwEeOLlbB2YLI0iw"/>
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_MQL-kbU5EeORdpT3S9OOtw" name="" type="_BTThoLU2EeORdpT3S9OOtw" aggregation="composite" association="_MQL-kLU5EeORdpT3S9OOtw">
-                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MQL-krU5EeORdpT3S9OOtw"/>
-                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MQL-k7U5EeORdpT3S9OOtw" value="*"/>
-                </ownedAttribute>
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_oIydIbU5EeORdpT3S9OOtw" name="" type="_BMnDwLU2EeORdpT3S9OOtw" aggregation="composite" association="_oIydILU5EeORdpT3S9OOtw">
-                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oIydIrU5EeORdpT3S9OOtw"/>
-                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oIydI7U5EeORdpT3S9OOtw" value="*"/>
-                </ownedAttribute>
-              </packagedElement>
-              <packagedElement xmi:type="uml:Class" xmi:id="_BJe3QLU2EeORdpT3S9OOtw" name="Book">
-                <ownedComment xmi:type="uml:Comment" xmi:id="_Xy4TwLU7EeORdpT3S9OOtw" annotatedElement="_BJe3QLU2EeORdpT3S9OOtw">
-                  <body>A book is published by a publisher and consists of chapters.</body>
-                </ownedComment>
-                <generalization xmi:type="uml:Generalization" xmi:id="_XmPQ0LU5EeORdpT3S9OOtw" general="_ylwfELQ4EeOQ5oJFa1i8cg"/>
-                <ownedAttribute xmi:type="uml:Property" xmi:id="__mzRoLU3EeORdpT3S9OOtw" name="title" type="_agg3ALQwEeOLlbB2YLI0iw"/>
-                <ownedAttribute xmi:type="uml:Property" xmi:id="__p_vkLU3EeORdpT3S9OOtw" name="description" type="_agg3ALQwEeOLlbB2YLI0iw"/>
-                <ownedAttribute xmi:type="uml:Property" xmi:id="__svhkLU3EeORdpT3S9OOtw" name="year" type="_X7HiELQwEeOLlbB2YLI0iw"/>
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_bEDbgLU5EeORdpT3S9OOtw" name="" type="_BDrKMLU2EeORdpT3S9OOtw" association="_bEECkLU5EeORdpT3S9OOtw">
-                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bEDbgbU5EeORdpT3S9OOtw" value="1"/>
-                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bEDbgrU5EeORdpT3S9OOtw" value="1"/>
-                </ownedAttribute>
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_8EAOYbU5EeORdpT3S9OOtw" name="" type="_BMnDwLU2EeORdpT3S9OOtw" aggregation="shared" association="_8EAOYLU5EeORdpT3S9OOtw">
-                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8EAOYrU5EeORdpT3S9OOtw"/>
-                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8EAOY7U5EeORdpT3S9OOtw" value="*"/>
-                </ownedAttribute>
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_PtjNkE0BEeWgTqa5Y3-hfQ" name="ReferencingNMBookBook" type="_Cmrd8E0BEeWgTqa5Y3-hfQ" aggregation="composite" association="_Ptcf4E0BEeWgTqa5Y3-hfQ">
-                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Uqqn0E0BEeWgTqa5Y3-hfQ"/>
-                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UqtEEE0BEeWgTqa5Y3-hfQ" value="*"/>
-                </ownedAttribute>
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_l2tdEE0BEeWgTqa5Y3-hfQ" name="ReferencedNMBookBook" type="_Cmrd8E0BEeWgTqa5Y3-hfQ" aggregation="composite" association="_l2rA0E0BEeWgTqa5Y3-hfQ">
-                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_nec28E0BEeWgTqa5Y3-hfQ"/>
-                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_neesIE0BEeWgTqa5Y3-hfQ" value="*"/>
-                </ownedAttribute>
-              </packagedElement>
-              <packagedElement xmi:type="uml:Class" xmi:id="_BMnDwLU2EeORdpT3S9OOtw" name="Chapter">
-                <ownedComment xmi:type="uml:Comment" xmi:id="_eiefoLU4EeORdpT3S9OOtw" annotatedElement="_BMnDwLU2EeORdpT3S9OOtw">
-                  <body>A book is divided into chapters. A chapter may contain subchapters.</body>
-                </ownedComment>
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_kn2icLU4EeORdpT3S9OOtw" name="author_name" type="_agg3ALQwEeOLlbB2YLI0iw"/>
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_kq-u8LU4EeORdpT3S9OOtw" name="name" type="_agg3ALQwEeOLlbB2YLI0iw"/>
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_njBmAPT-EeSdk57oe2HXMQ" name="content" type="_agg3ALQwEeOLlbB2YLI0iw"/>
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_oIwA4LU5EeORdpT3S9OOtw" name="" type="_BGWqwLU2EeORdpT3S9OOtw" association="_oIydILU5EeORdpT3S9OOtw">
-                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oIwA4bU5EeORdpT3S9OOtw" value="1"/>
-                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oIwA4rU5EeORdpT3S9OOtw" value="1"/>
-                </ownedAttribute>
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_rf-bYLU5EeORdpT3S9OOtw" name="ParentChapter" type="_BMnDwLU2EeORdpT3S9OOtw" association="_rf_CcLU5EeORdpT3S9OOtw">
-                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rf-bYbU5EeORdpT3S9OOtw" value="1"/>
-                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rf-bYrU5EeORdpT3S9OOtw" value="1"/>
-                </ownedAttribute>
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_rf_CcbU5EeORdpT3S9OOtw" name="SubChapter" type="_BMnDwLU2EeORdpT3S9OOtw" aggregation="composite" association="_rf_CcLU5EeORdpT3S9OOtw">
-                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rf_CcrU5EeORdpT3S9OOtw"/>
-                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rf_Cc7U5EeORdpT3S9OOtw" value="*"/>
-                </ownedAttribute>
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_8D_AQLU5EeORdpT3S9OOtw" name="" type="_BJe3QLU2EeORdpT3S9OOtw" association="_8EAOYLU5EeORdpT3S9OOtw">
-                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8D_AQbU5EeORdpT3S9OOtw" value="1"/>
-                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8D_AQrU5EeORdpT3S9OOtw" value="1"/>
-                </ownedAttribute>
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_H7bIUbU6EeORdpT3S9OOtw" name="TitleImage" type="_BQLVILU2EeORdpT3S9OOtw" aggregation="shared" association="_H7bIULU6EeORdpT3S9OOtw">
-                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_H7bIUrU6EeORdpT3S9OOtw"/>
-                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_H7bIU7U6EeORdpT3S9OOtw" value="1"/>
-                </ownedAttribute>
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_R5i-UbU6EeORdpT3S9OOtw" name="NormalImage" type="_BQLVILU2EeORdpT3S9OOtw" aggregation="shared" association="_R5i-ULU6EeORdpT3S9OOtw">
-                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_R5i-UrU6EeORdpT3S9OOtw"/>
-                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_R5i-U7U6EeORdpT3S9OOtw" value="*"/>
-                </ownedAttribute>
-              </packagedElement>
-              <packagedElement xmi:type="uml:Class" xmi:id="_BQLVILU2EeORdpT3S9OOtw" name="Image">
-                <generalization xmi:type="uml:Generalization" xmi:id="_iovDALU7EeORdpT3S9OOtw" general="_ylwfELQ4EeOQ5oJFa1i8cg"/>
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_0UxuULU4EeORdpT3S9OOtw" name="filename" type="_agg3ALQwEeOLlbB2YLI0iw"/>
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_H7ahQLU6EeORdpT3S9OOtw" name="TitleChapter" type="_BMnDwLU2EeORdpT3S9OOtw" association="_H7bIULU6EeORdpT3S9OOtw">
-                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_H7ahQbU6EeORdpT3S9OOtw" value="1"/>
-                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_H7ahQrU6EeORdpT3S9OOtw" value="1"/>
-                </ownedAttribute>
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_R5iXQLU6EeORdpT3S9OOtw" name="NormalChapter" type="_BMnDwLU2EeORdpT3S9OOtw" association="_R5i-ULU6EeORdpT3S9OOtw">
-                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_R5iXQbU6EeORdpT3S9OOtw" value="1"/>
-                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_R5iXQrU6EeORdpT3S9OOtw" value="1"/>
-                </ownedAttribute>
-              </packagedElement>
-              <packagedElement xmi:type="uml:Class" xmi:id="_BTThoLU2EeORdpT3S9OOtw" name="NMPublisherAuthor">
-                <generalization xmi:type="uml:Generalization" xmi:id="_BunV4LU8EeORdpT3S9OOtw" general="_6z2NkLQGEeOIMOFxCilDfw"/>
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_GeBysLU5EeORdpT3S9OOtw" name="" type="_BDrKMLU2EeORdpT3S9OOtw" association="_GeDA0LU5EeORdpT3S9OOtw">
-                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GeBysbU5EeORdpT3S9OOtw" value="1"/>
-                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GeBysrU5EeORdpT3S9OOtw" value="1"/>
-                </ownedAttribute>
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_MQLXgLU5EeORdpT3S9OOtw" name="" type="_BGWqwLU2EeORdpT3S9OOtw" association="_MQL-kLU5EeORdpT3S9OOtw">
-                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MQLXgbU5EeORdpT3S9OOtw" value="1"/>
-                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MQLXgrU5EeORdpT3S9OOtw" value="1"/>
-                </ownedAttribute>
-              </packagedElement>
-              <packagedElement xmi:type="uml:Association" xmi:id="_GeDA0LU5EeORdpT3S9OOtw" name="" memberEnd="_GeDA0bU5EeORdpT3S9OOtw _GeBysLU5EeORdpT3S9OOtw"/>
-              <packagedElement xmi:type="uml:Association" xmi:id="_MQL-kLU5EeORdpT3S9OOtw" name="" memberEnd="_MQL-kbU5EeORdpT3S9OOtw _MQLXgLU5EeORdpT3S9OOtw"/>
-              <packagedElement xmi:type="uml:Association" xmi:id="_bEECkLU5EeORdpT3S9OOtw" name="" memberEnd="_bEECkbU5EeORdpT3S9OOtw _bEDbgLU5EeORdpT3S9OOtw"/>
-              <packagedElement xmi:type="uml:Association" xmi:id="_oIydILU5EeORdpT3S9OOtw" name="" memberEnd="_oIydIbU5EeORdpT3S9OOtw _oIwA4LU5EeORdpT3S9OOtw"/>
-              <packagedElement xmi:type="uml:Association" xmi:id="_rf_CcLU5EeORdpT3S9OOtw" name="" memberEnd="_rf_CcbU5EeORdpT3S9OOtw _rf-bYLU5EeORdpT3S9OOtw">
-                <generalization xmi:type="uml:Generalization" xmi:id="_7JZAQLU5EeORdpT3S9OOtw" general="_ylwfELQ4EeOQ5oJFa1i8cg"/>
-              </packagedElement>
-              <packagedElement xmi:type="uml:Association" xmi:id="_8EAOYLU5EeORdpT3S9OOtw" name="" memberEnd="_8EAOYbU5EeORdpT3S9OOtw _8D_AQLU5EeORdpT3S9OOtw"/>
-              <packagedElement xmi:type="uml:Association" xmi:id="_H7bIULU6EeORdpT3S9OOtw" name="" memberEnd="_H7bIUbU6EeORdpT3S9OOtw _H7ahQLU6EeORdpT3S9OOtw"/>
-              <packagedElement xmi:type="uml:Association" xmi:id="_R5i-ULU6EeORdpT3S9OOtw" name="" memberEnd="_R5i-UbU6EeORdpT3S9OOtw _R5iXQLU6EeORdpT3S9OOtw"/>
-              <packagedElement xmi:type="uml:Class" xmi:id="_Cmrd8E0BEeWgTqa5Y3-hfQ" name="NMBookBook">
-                <generalization xmi:type="uml:Generalization" xmi:id="_Cmrd8U0BEeWgTqa5Y3-hfQ" general="_6z2NkLQGEeOIMOFxCilDfw"/>
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_PtgxUE0BEeWgTqa5Y3-hfQ" name="ReferencingBook" type="_BJe3QLU2EeORdpT3S9OOtw" association="_Ptcf4E0BEeWgTqa5Y3-hfQ"/>
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_l2sO8E0BEeWgTqa5Y3-hfQ" name="ReferencedBook" type="_BJe3QLU2EeORdpT3S9OOtw" association="_l2rA0E0BEeWgTqa5Y3-hfQ"/>
-              </packagedElement>
-              <packagedElement xmi:type="uml:Association" xmi:id="_Ptcf4E0BEeWgTqa5Y3-hfQ" memberEnd="_PtgxUE0BEeWgTqa5Y3-hfQ _PtjNkE0BEeWgTqa5Y3-hfQ">
-                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PtfjME0BEeWgTqa5Y3-hfQ" source="org.eclipse.papyrus">
-                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PtgKQE0BEeWgTqa5Y3-hfQ" key="nature" value="UML_Nature"/>
-                </eAnnotations>
-              </packagedElement>
-              <packagedElement xmi:type="uml:Association" xmi:id="_l2rA0E0BEeWgTqa5Y3-hfQ" memberEnd="_l2sO8E0BEeWgTqa5Y3-hfQ _l2tdEE0BEeWgTqa5Y3-hfQ">
-                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_l2rn4E0BEeWgTqa5Y3-hfQ" source="org.eclipse.papyrus">
-                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_l2rn4U0BEeWgTqa5Y3-hfQ" key="nature" value="UML_Nature"/>
-                </eAnnotations>
+              <packagedElement xmi:type="uml:Class" xmi:id="_IURDIEtTEee-k9JiBTO3-w" name="Profesor">
+                <generalization xmi:type="uml:Generalization" xmi:id="_YkKZMEtTEee-k9JiBTO3-w" general="_ylwfELQ4EeOQ5oJFa1i8cg"/>
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_apZK4EtUEee-k9JiBTO3-w" name="ci" type="_dbezULQwEeOLlbB2YLI0iw" isUnique="false"/>
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_Qt6ZMEtUEee-k9JiBTO3-w" name="nombres" type="_agg3ALQwEeOLlbB2YLI0iw" isUnique="false"/>
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_gNKVcEtUEee-k9JiBTO3-w" name="fecha_contrato" type="_X7HiELQwEeOLlbB2YLI0iw" isUnique="false"/>
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_me9qsEtUEee-k9JiBTO3-w" name="telefono" type="_dbezULQwEeOLlbB2YLI0iw" isUnique="false"/>
               </packagedElement>
             </packagedElement>
             <packagedElement xmi:type="uml:Package" xmi:id="_B7Q5IPu5EeOmMdys2glKCA" name="controller">
@@ -2220,23 +2102,6 @@
   <Chronos:ChiValue xmi:id="_FvzEELTTEeOYkOsR5IzpsA" base_Property="_EVGnsLTTEeOYkOsR5IzpsA"/>
   <Chronos:ChiValue xmi:id="_HSyg0LTTEeOYkOsR5IzpsA" db_data_type="DATETIME" input_type="date" base_Property="_EZrlsLTTEeOYkOsR5IzpsA"/>
   <Chronos:ChiValue xmi:id="_eH_2oLTWEeOYkOsR5IzpsA" is_editable="true" base_Property="_blxxgLTWEeOYkOsR5IzpsA"/>
-  <Chronos:ChiNode xmi:id="_GgG9sLU2EeORdpT3S9OOtw" base_Class="_BDrKMLU2EeORdpT3S9OOtw" display_value="name" is_searchable="true" is_soap="true" orderby="name"/>
-  <Chronos:ChiValue xmi:id="_WaA1oLU2EeORdpT3S9OOtw" is_editable="true" base_Property="_UsqjALU2EeORdpT3S9OOtw"/>
-  <Chronos:ChiNode xmi:id="_fYudELU2EeORdpT3S9OOtw" base_Class="_BGWqwLU2EeORdpT3S9OOtw" display_value="name" is_searchable="true" is_soap="true" orderby="name"/>
-  <Chronos:ChiValue xmi:id="_tmBpQLU2EeORdpT3S9OOtw" is_editable="true" base_Property="_rq2WALU2EeORdpT3S9OOtw"/>
-  <Chronos:ChiNode xmi:id="_206lQLU3EeORdpT3S9OOtw" base_Class="_BJe3QLU2EeORdpT3S9OOtw" display_value="title" is_searchable="true" is_soap="true" orderby="title DESC"/>
-  <Chronos:ChiValue xmi:id="_Ct8BsLU4EeORdpT3S9OOtw" app_data_type="DATATYPE_ATTRIBUTE|TRANSLATABLE" is_editable="true" base_Property="__mzRoLU3EeORdpT3S9OOtw"/>
-  <Chronos:ChiValue xmi:id="_DWKfULU4EeORdpT3S9OOtw" app_data_type="DATATYPE_ATTRIBUTE|TRANSLATABLE" is_editable="true" input_type="textarea" base_Property="__p_vkLU3EeORdpT3S9OOtw"/>
-  <Chronos:ChiValue xmi:id="_D9RioLU4EeORdpT3S9OOtw" is_editable="true" input_type="date" base_Property="__svhkLU3EeORdpT3S9OOtw"/>
-  <Chronos:ChiNode xmi:id="_cDacMLU4EeORdpT3S9OOtw" base_Class="_BMnDwLU2EeORdpT3S9OOtw" display_value="name" is_searchable="true" is_soap="true" orderby="sortkey"/>
-  <Chronos:ChiValueRef xmi:id="_nlhNcLU4EeORdpT3S9OOtw" base_Property="_kn2icLU4EeORdpT3S9OOtw" reference_value="name" reference_type="Author"/>
-  <Chronos:ChiValue xmi:id="_p0IaELU4EeORdpT3S9OOtw" app_data_type="DATATYPE_ATTRIBUTE|TRANSLATABLE" is_editable="true" base_Property="_kq-u8LU4EeORdpT3S9OOtw"/>
-  <Chronos:ChiNode xmi:id="_uWjcYLU4EeORdpT3S9OOtw" base_Class="_BQLVILU2EeORdpT3S9OOtw" display_value="filename" is_searchable="true" is_soap="true" orderby="sortkey DESC"/>
-  <Chronos:ChiValue xmi:id="_169B8LU4EeORdpT3S9OOtw" is_editable="true" input_type="filebrowser" display_type="image" column_name="file" base_Property="_0UxuULU4EeORdpT3S9OOtw"/>
-  <Chronos:ChiManyToMany xmi:id="_7oE80LU4EeORdpT3S9OOtw" base_Class="_BTThoLU2EeORdpT3S9OOtw" orderby="sortkey"/>
-  <Chronos:ChiAssociation xmi:id="_g5KtYLU8EeORdpT3S9OOtw" fk_name="fk_titlechapter_id" base_Association="_H7bIULU6EeORdpT3S9OOtw"/>
-  <Chronos:ChiAssociation xmi:id="_jC-SgLU8EeORdpT3S9OOtw" fk_name="fk_chapter_id" base_Association="_R5i-ULU6EeORdpT3S9OOtw"/>
-  <Chronos:ChiValue xmi:id="_nmvoYPT-EeSdk57oe2HXMQ" app_data_type="DATATYPE_ATTRIBUTE|TRANSLATABLE" db_data_type="TEXT" is_editable="true" input_type="ckeditor:{&quot;toolbarSet&quot;:&quot;wcmf&quot;}" base_Property="_njBmAPT-EeSdk57oe2HXMQ"/>
   <Chronos:ChiController xmi:id="_K5yTUPu5EeOmMdys2glKCA" base_Class="_FrS1MPu5EeOmMdys2glKCA"/>
   <Chronos:ChiView xmi:id="_Pa9YcPu5EeOmMdys2glKCA" base_Class="_MLKboPu5EeOmMdys2glKCA"/>
   <Chronos:ChiActionKey xmi:id="_lLMKkPu5EeOmMdys2glKCA" base_Association="_lK86APu5EeOmMdys2glKCA"/>
@@ -2246,8 +2111,6 @@
   <Chronos:ChiValue xmi:id="_VG-rADkNEeSAepGYcnIyuw" is_editable="true" base_Property="_VEQuNTkNEeSAepGYcnIyuw"/>
   <Chronos:ChiValue xmi:id="_VG_SEDkNEeSAepGYcnIyuw" is_editable="true" base_Property="_VEQuOTkNEeSAepGYcnIyuw"/>
   <Chronos:ChiValue xmi:id="_gJEfcDkNEeSAepGYcnIyuw" is_editable="true" base_Property="_dNmz4DkNEeSAepGYcnIyuw"/>
-  <Chronos:ChiManyToMany xmi:id="_CscuwE0BEeWgTqa5Y3-hfQ" base_Class="_Cmrd8E0BEeWgTqa5Y3-hfQ" orderby="sortkey"/>
-  <Chronos:ChiAssociation xmi:id="_l6wycE0IEeWgTqa5Y3-hfQ" fk_name="fk_chapter_id" base_Association="_rf_CcLU5EeORdpT3S9OOtw"/>
   <Chronos:ChiView xmi:id="_dGdRUHIBEeWqqJ8U6ttukA" base_Class="_dGbcIHIBEeWqqJ8U6ttukA"/>
   <Chronos:ChiActionKey xmi:id="_3W8ikHIBEeWqqJ8U6ttukA" base_Association="_j0gdsHIBEeWqqJ8U6ttukA"/>
   <Chronos:ChiValue xmi:id="_PwJQUP_DEeWzxP-Oi6uCUQ" base_Property="_PsZYwP_DEeWzxP-Oi6uCUQ"/>
@@ -2408,4 +2271,14 @@
   <Chronos:ChiActionKey xmi:id="_M0REkC38EeeXlbGiPETVvw" action="continue" base_Association="_ER4z0C38EeeXlbGiPETVvw"/>
   <Chronos:ChiSystem xmi:id="_XayrQEZOEeeLZa5OKBzA3A" plattform="wcmf" config="security.ini" base_Class="_XVX_wEZOEeeLZa5OKBzA3A"/>
   <Chronos:ChiSystem xmi:id="_dVkAkEZOEeeLZa5OKBzA3A" plattform="wcmf" config="security.ini" base_Class="_dVhkUEZOEeeLZa5OKBzA3A"/>
+  <Chronos:ChiNode xmi:id="_N1DLIEtTEee-k9JiBTO3-w" base_Class="_EftzcEtTEee-k9JiBTO3-w"/>
+  <Chronos:ChiNode xmi:id="_PallkEtTEee-k9JiBTO3-w" base_Class="_IURDIEtTEee-k9JiBTO3-w"/>
+  <Chronos:ChiValue xmi:id="_FJQqQEtUEee-k9JiBTO3-w" base_Property="_dOhPgEtTEee-k9JiBTO3-w"/>
+  <Chronos:ChiValue xmi:id="_IouawEtUEee-k9JiBTO3-w" base_Property="_nt4xYEtTEee-k9JiBTO3-w"/>
+  <Chronos:ChiValue xmi:id="_Jgr9gEtUEee-k9JiBTO3-w" base_Property="_6CLoIEtTEee-k9JiBTO3-w"/>
+  <Chronos:ChiValue xmi:id="_LNPl8EtUEee-k9JiBTO3-w" base_Property="_Aw9NQEtUEee-k9JiBTO3-w"/>
+  <Chronos:ChiValue xmi:id="_qm9a0EtUEee-k9JiBTO3-w" base_Property="_Qt6ZMEtUEee-k9JiBTO3-w"/>
+  <Chronos:ChiValue xmi:id="_rfrykEtUEee-k9JiBTO3-w" base_Property="_apZK4EtUEee-k9JiBTO3-w"/>
+  <Chronos:ChiValue xmi:id="_sYDlAEtUEee-k9JiBTO3-w" base_Property="_gNKVcEtUEee-k9JiBTO3-w"/>
+  <Chronos:ChiValue xmi:id="_tVBjkEtUEee-k9JiBTO3-w" base_Property="_me9qsEtUEee-k9JiBTO3-w"/>
 </xmi:XMI>
