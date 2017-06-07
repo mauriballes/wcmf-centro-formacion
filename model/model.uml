@@ -2031,6 +2031,7 @@
                 </eAnnotations>
               </packagedElement>
               <packagedElement xmi:type="uml:Class" xmi:id="_sAM18EtlEee1hL0YESvRuA" name="Materia">
+                <generalization xmi:type="uml:Generalization" xmi:id="_QaeIsEtoEee6U9nkcDNvlg" general="_ylwfELQ4EeOQ5oJFa1i8cg"/>
                 <ownedAttribute xmi:type="uml:Property" xmi:id="_4-FosEtlEee1hL0YESvRuA" name="nombre" type="_agg3ALQwEeOLlbB2YLI0iw" isUnique="false"/>
                 <ownedAttribute xmi:type="uml:Property" xmi:id="_-RJdwEtlEee1hL0YESvRuA" name="descripcion" type="_agg3ALQwEeOLlbB2YLI0iw" isUnique="false"/>
                 <ownedAttribute xmi:type="uml:Property" xmi:id="_bnAkgktmEee1hL0YESvRuA" name="grupo" type="_EJFbIEteEee1hL0YESvRuA" association="_bm_9cEtmEee1hL0YESvRuA">
