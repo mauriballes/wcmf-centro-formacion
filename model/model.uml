@@ -2054,10 +2054,25 @@
                 <ownedAttribute xmi:type="uml:Property" xmi:id="_vRzDYEuCEeeEovrNcjL9fg" name="hora_ingreso" type="_agg3ALQwEeOLlbB2YLI0iw" isUnique="false"/>
                 <ownedAttribute xmi:type="uml:Property" xmi:id="_5OCDAEuCEeeEovrNcjL9fg" name="hora_salida" type="_agg3ALQwEeOLlbB2YLI0iw" isUnique="false"/>
                 <ownedAttribute xmi:type="uml:Property" xmi:id="_5vtXQEuDEeeEovrNcjL9fg" name="grupo" type="_EJFbIEteEee1hL0YESvRuA" association="_5vq7AEuDEeeEovrNcjL9fg"/>
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_DcphMUuFEeeEovrNcjL9fg" name="aula" type="_fDJ_oEuEEeeEovrNcjL9fg" association="_DcoTEEuFEeeEovrNcjL9fg"/>
               </packagedElement>
               <packagedElement xmi:type="uml:Association" xmi:id="_5vq7AEuDEeeEovrNcjL9fg" memberEnd="_5vtXQEuDEeeEovrNcjL9fg _5vtXQUuDEeeEovrNcjL9fg">
                 <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5vsJIEuDEeeEovrNcjL9fg" source="org.eclipse.papyrus">
                   <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5vswMEuDEeeEovrNcjL9fg" key="nature" value="UML_Nature"/>
+                </eAnnotations>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_fDJ_oEuEEeeEovrNcjL9fg" name="Aula">
+                <generalization xmi:type="uml:Generalization" xmi:id="_T3rwQEuFEeeEovrNcjL9fg" general="_ylwfELQ4EeOQ5oJFa1i8cg"/>
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_m-KuYEuEEeeEovrNcjL9fg" name="nombre" type="_agg3ALQwEeOLlbB2YLI0iw" isUnique="false"/>
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_qnx5YEuEEeeEovrNcjL9fg" name="capacidad" type="_dbezULQwEeOLlbB2YLI0iw" isUnique="false"/>
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_DcphMEuFEeeEovrNcjL9fg" name="horario" type="_nNP-IEuCEeeEovrNcjL9fg" association="_DcoTEEuFEeeEovrNcjL9fg">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GCWYIEuFEeeEovrNcjL9fg" value="1"/>
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GCbQoEuFEeeEovrNcjL9fg" value="*"/>
+                </ownedAttribute>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_DcoTEEuFEeeEovrNcjL9fg" memberEnd="_DcphMEuFEeeEovrNcjL9fg _DcphMUuFEeeEovrNcjL9fg">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Dco6IEuFEeeEovrNcjL9fg" source="org.eclipse.papyrus">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Dco6IUuFEeeEovrNcjL9fg" key="nature" value="UML_Nature"/>
                 </eAnnotations>
               </packagedElement>
             </packagedElement>
@@ -2342,4 +2357,7 @@
   <Chronos:ChiValue xmi:id="_HMTUsEuDEeeEovrNcjL9fg" is_editable="true" restrictions_match="required" base_Property="_vRzDYEuCEeeEovrNcjL9fg"/>
   <Chronos:ChiValue xmi:id="_IJD34EuDEeeEovrNcjL9fg" is_editable="true" restrictions_match="required" base_Property="_5OCDAEuCEeeEovrNcjL9fg"/>
   <Chronos:ChiValue xmi:id="_JKeRkEuDEeeEovrNcjL9fg" is_editable="true" restrictions_match="required" base_Property="_8fyusEuCEeeEovrNcjL9fg"/>
+  <Chronos:ChiNode xmi:id="_hI0roEuEEeeEovrNcjL9fg" base_Class="_fDJ_oEuEEeeEovrNcjL9fg" display_value="nombre"/>
+  <Chronos:ChiValue xmi:id="_1NkzYEuEEeeEovrNcjL9fg" is_editable="true" restrictions_match="required" base_Property="_m-KuYEuEEeeEovrNcjL9fg"/>
+  <Chronos:ChiValue xmi:id="_2PvbAEuEEeeEovrNcjL9fg" db_data_type="INT" is_editable="true" restrictions_match="required" base_Property="_qnx5YEuEEeeEovrNcjL9fg"/>
 </xmi:XMI>
