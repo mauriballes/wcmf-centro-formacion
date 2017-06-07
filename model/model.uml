@@ -2002,6 +2002,10 @@
                 <ownedAttribute xmi:type="uml:Property" xmi:id="_dOhPgEtTEee-k9JiBTO3-w" name="nombres" type="_agg3ALQwEeOLlbB2YLI0iw" isUnique="false"/>
                 <ownedAttribute xmi:type="uml:Property" xmi:id="_6CLoIEtTEee-k9JiBTO3-w" name="direccion" type="_agg3ALQwEeOLlbB2YLI0iw" isUnique="false"/>
                 <ownedAttribute xmi:type="uml:Property" xmi:id="_Aw9NQEtUEee-k9JiBTO3-w" name="telefono" type="_dbezULQwEeOLlbB2YLI0iw" isUnique="false"/>
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_yEGuwEuJEeeEovrNcjL9fg" name="kardex" type="_gg8E4EuHEeeEovrNcjL9fg" association="_yEFgoEuJEeeEovrNcjL9fg">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2V7wUEuJEeeEovrNcjL9fg"/>
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2V-zoEuJEeeEovrNcjL9fg" value="*"/>
+                </ownedAttribute>
               </packagedElement>
               <packagedElement xmi:type="uml:Class" xmi:id="_IURDIEtTEee-k9JiBTO3-w" name="Profesor">
                 <generalization xmi:type="uml:Generalization" xmi:id="_YkKZMEtTEee-k9JiBTO3-w" general="_ylwfELQ4EeOQ5oJFa1i8cg"/>
@@ -2077,6 +2081,13 @@
               </packagedElement>
               <packagedElement xmi:type="uml:Class" xmi:id="_gg8E4EuHEeeEovrNcjL9fg" name="Kardex">
                 <ownedAttribute xmi:type="uml:Property" xmi:id="_tTFhsEuHEeeEovrNcjL9fg" name="fecha_registro" type="_X7HiELQwEeOLlbB2YLI0iw" isUnique="false"/>
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_yEGHskuJEeeEovrNcjL9fg" name="alumno" type="_EftzcEtTEee-k9JiBTO3-w" association="_yEFgoEuJEeeEovrNcjL9fg"/>
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_CobcsEuKEeeEovrNcjL9fg" name="nombre_alumno" type="_agg3ALQwEeOLlbB2YLI0iw" isUnique="false"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_yEFgoEuJEeeEovrNcjL9fg" memberEnd="_yEGHskuJEeeEovrNcjL9fg _yEGuwEuJEeeEovrNcjL9fg">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yEGHsEuJEeeEovrNcjL9fg" source="org.eclipse.papyrus">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yEGHsUuJEeeEovrNcjL9fg" key="nature" value="UML_Nature"/>
+                </eAnnotations>
               </packagedElement>
             </packagedElement>
             <packagedElement xmi:type="uml:Package" xmi:id="_B7Q5IPu5EeOmMdys2glKCA" name="controller">
@@ -2363,6 +2374,7 @@
   <Chronos:ChiNode xmi:id="_hI0roEuEEeeEovrNcjL9fg" base_Class="_fDJ_oEuEEeeEovrNcjL9fg" display_value="nombre"/>
   <Chronos:ChiValue xmi:id="_1NkzYEuEEeeEovrNcjL9fg" is_editable="true" restrictions_match="required" base_Property="_m-KuYEuEEeeEovrNcjL9fg"/>
   <Chronos:ChiValue xmi:id="_2PvbAEuEEeeEovrNcjL9fg" db_data_type="INT" is_editable="true" restrictions_match="required" base_Property="_qnx5YEuEEeeEovrNcjL9fg"/>
-  <Chronos:ChiNode xmi:id="_j_sDsEuHEeeEovrNcjL9fg" base_Class="_gg8E4EuHEeeEovrNcjL9fg"/>
+  <Chronos:ChiNode xmi:id="_j_sDsEuHEeeEovrNcjL9fg" base_Class="_gg8E4EuHEeeEovrNcjL9fg" display_value="fecha_registro"/>
   <Chronos:ChiValue xmi:id="_iD2zsEuIEeeEovrNcjL9fg" db_data_type="DATE" is_editable="true" input_type="date" restrictions_match="required" base_Property="_tTFhsEuHEeeEovrNcjL9fg"/>
+  <Chronos:ChiValueRef xmi:id="_Gp9_gEuKEeeEovrNcjL9fg" base_Property="_CobcsEuKEeeEovrNcjL9fg" reference_value="nombres" reference_type="Alumno"/>
 </xmi:XMI>
