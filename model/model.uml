@@ -2271,8 +2271,8 @@
   <Chronos:ChiActionKey xmi:id="_M0REkC38EeeXlbGiPETVvw" action="continue" base_Association="_ER4z0C38EeeXlbGiPETVvw"/>
   <Chronos:ChiSystem xmi:id="_XayrQEZOEeeLZa5OKBzA3A" plattform="wcmf" config="security.ini" base_Class="_XVX_wEZOEeeLZa5OKBzA3A"/>
   <Chronos:ChiSystem xmi:id="_dVkAkEZOEeeLZa5OKBzA3A" plattform="wcmf" config="security.ini" base_Class="_dVhkUEZOEeeLZa5OKBzA3A"/>
-  <Chronos:ChiNode xmi:id="_N1DLIEtTEee-k9JiBTO3-w" base_Class="_EftzcEtTEee-k9JiBTO3-w"/>
-  <Chronos:ChiNode xmi:id="_PallkEtTEee-k9JiBTO3-w" base_Class="_IURDIEtTEee-k9JiBTO3-w"/>
+  <Chronos:ChiNode xmi:id="_N1DLIEtTEee-k9JiBTO3-w" base_Class="_EftzcEtTEee-k9JiBTO3-w" display_value="ci,nombres"/>
+  <Chronos:ChiNode xmi:id="_PallkEtTEee-k9JiBTO3-w" base_Class="_IURDIEtTEee-k9JiBTO3-w" display_value="ci,nombres"/>
   <Chronos:ChiValue xmi:id="_FJQqQEtUEee-k9JiBTO3-w" is_editable="true" restrictions_match="required" base_Property="_dOhPgEtTEee-k9JiBTO3-w"/>
   <Chronos:ChiValue xmi:id="_IouawEtUEee-k9JiBTO3-w" db_data_type="INT" is_editable="true" restrictions_match="required" base_Property="_nt4xYEtTEee-k9JiBTO3-w"/>
   <Chronos:ChiValue xmi:id="_Jgr9gEtUEee-k9JiBTO3-w" is_editable="true" restrictions_match="required" base_Property="_6CLoIEtTEee-k9JiBTO3-w"/>
