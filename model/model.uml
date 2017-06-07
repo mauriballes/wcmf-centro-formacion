@@ -2023,6 +2023,7 @@
                   <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_J8aAcEtlEee1hL0YESvRuA" value="1"/>
                 </ownedAttribute>
                 <ownedAttribute xmi:type="uml:Property" xmi:id="_bnBLkEtmEee1hL0YESvRuA" name="materia" type="_sAM18EtlEee1hL0YESvRuA" association="_bm_9cEtmEee1hL0YESvRuA"/>
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_5ZO3IEtmEee1hL0YESvRuA" name="nombre_materia" type="_agg3ALQwEeOLlbB2YLI0iw" isUnique="false"/>
               </packagedElement>
               <packagedElement xmi:type="uml:Association" xmi:id="_5IS08EtiEee1hL0YESvRuA" memberEnd="_5IV4QEtiEee1hL0YESvRuA _5IWfUEtiEee1hL0YESvRuA">
                 <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5IUqIEtiEee1hL0YESvRuA" source="org.eclipse.papyrus">
@@ -2319,4 +2320,5 @@
   <Chronos:ChiNode xmi:id="_vUnNAEtlEee1hL0YESvRuA" base_Class="_sAM18EtlEee1hL0YESvRuA" display_value="nombre"/>
   <Chronos:ChiValue xmi:id="_FnARAEtmEee1hL0YESvRuA" is_editable="true" restrictions_match="required" base_Property="_4-FosEtlEee1hL0YESvRuA"/>
   <Chronos:ChiValue xmi:id="_HBLI8EtmEee1hL0YESvRuA" is_editable="true" restrictions_match="required" base_Property="_-RJdwEtlEee1hL0YESvRuA"/>
+  <Chronos:ChiValueRef xmi:id="__XwEAEtmEee1hL0YESvRuA" base_Property="_5ZO3IEtmEee1hL0YESvRuA" reference_value="nombre" reference_type="Materia"/>
 </xmi:XMI>
