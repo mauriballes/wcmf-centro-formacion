@@ -230,7 +230,7 @@
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ef1IP0tTEee-k9JiBTO3-w"/>
       </children>
       <element xmi:type="uml:Class" href="model.uml#_EftzcEtTEee-k9JiBTO3-w"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EfzTAUtTEee-k9JiBTO3-w" x="167" y="212"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EfzTAUtTEee-k9JiBTO3-w" x="225" y="212"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_IUUtgEtTEee-k9JiBTO3-w" type="Class_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_IUUtgktTEee-k9JiBTO3-w" type="Class_NameLabel"/>
@@ -272,7 +272,7 @@
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IUVUoEtTEee-k9JiBTO3-w"/>
       </children>
       <element xmi:type="uml:Class" href="model.uml#_IURDIEtTEee-k9JiBTO3-w"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IUUtgUtTEee-k9JiBTO3-w" x="783" y="202"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IUUtgUtTEee-k9JiBTO3-w" x="730" y="211"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_N1U39EtTEee-k9JiBTO3-w" type="StereotypeComment">
       <styles xmi:type="notation:TitleStyle" xmi:id="_N1U39UtTEee-k9JiBTO3-w"/>
