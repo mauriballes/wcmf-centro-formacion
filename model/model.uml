@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.1" xmlns:xmi="http://www.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Chronos="http:///schemas/Chronos/_jAH0gM-nEd6fypAGO026Fw/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xsi:schemaLocation="http:///schemas/Chronos/_jAH0gM-nEd6fypAGO026Fw/0 chronos.profile.uml#_jARlgc-nEd6fypAGO026Fw">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Chronos="http:///schemas/Chronos/_jAH0gM-nEd6fypAGO026Fw/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/Chronos/_jAH0gM-nEd6fypAGO026Fw/0 chronos.profile.uml#_jARlgc-nEd6fypAGO026Fw">
   <uml:Model xmi:id="_ItyOULQGEeOIMOFxCilDfw" name="model">
     <packagedElement xmi:type="uml:Package" xmi:id="_e7sa8LQGEeOIMOFxCilDfw" name="wcmf test">
       <packagedElement xmi:type="uml:Package" xmi:id="_krkH0LQGEeOIMOFxCilDfw" name="root">
@@ -2010,6 +2010,10 @@
                 <ownedAttribute xmi:type="uml:Property" xmi:id="_gNKVcEtUEee-k9JiBTO3-w" name="fecha_contrato" type="_X7HiELQwEeOLlbB2YLI0iw" isUnique="false"/>
                 <ownedAttribute xmi:type="uml:Property" xmi:id="_me9qsEtUEee-k9JiBTO3-w" name="telefono" type="_dbezULQwEeOLlbB2YLI0iw" isUnique="false"/>
               </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_EJFbIEteEee1hL0YESvRuA" name="Grupo">
+                <generalization xmi:type="uml:Generalization" xmi:id="_VNpvYEteEee1hL0YESvRuA" general="_ylwfELQ4EeOQ5oJFa1i8cg"/>
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_JtTRoEteEee1hL0YESvRuA" name="nombre" type="_agg3ALQwEeOLlbB2YLI0iw" isUnique="false"/>
+              </packagedElement>
             </packagedElement>
             <packagedElement xmi:type="uml:Package" xmi:id="_B7Q5IPu5EeOmMdys2glKCA" name="controller">
               <packagedElement xmi:type="uml:Class" xmi:id="_FrS1MPu5EeOmMdys2glKCA" name="RootController">
@@ -2281,4 +2285,6 @@
   <Chronos:ChiValue xmi:id="_rfrykEtUEee-k9JiBTO3-w" db_data_type="INT" is_editable="true" restrictions_match="required" base_Property="_apZK4EtUEee-k9JiBTO3-w"/>
   <Chronos:ChiValue xmi:id="_sYDlAEtUEee-k9JiBTO3-w" db_data_type="DATE" is_editable="true" input_type="date" restrictions_match="required" base_Property="_gNKVcEtUEee-k9JiBTO3-w"/>
   <Chronos:ChiValue xmi:id="_tVBjkEtUEee-k9JiBTO3-w" db_data_type="INT" is_editable="true" restrictions_match="required" base_Property="_me9qsEtUEee-k9JiBTO3-w"/>
+  <Chronos:ChiNode xmi:id="_GnGVsEteEee1hL0YESvRuA" base_Class="_EJFbIEteEee1hL0YESvRuA"/>
+  <Chronos:ChiValue xmi:id="_S9LhkEteEee1hL0YESvRuA" base_Property="_JtTRoEteEee1hL0YESvRuA"/>
 </xmi:XMI>
