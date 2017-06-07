@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!-- see http://www.phpunit.de/wiki/Documentation -->
+<phpunit bootstrap="bootstrap.php"
+         backupGlobals="false"
+         backupStaticAttributes="false"
+         processIsolation="false"
+         verbose="true"
+         colors="true"
+>
+  <testsuites>
+    <testsuite name="App">
+      <file>tests/app/InputTest.php</file>
+      <file>tests/app/LoginTest.php</file>
+    </testsuite>
+  </testsuites>
+  <groups>
+    <exclude>
+    </exclude>
+  </groups>
+  <logging>
+    <log type="testdox-text" target="log/testdox.txt"/>
+  </logging>
+</phpunit>

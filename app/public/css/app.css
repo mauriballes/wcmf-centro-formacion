@@ -1,0 +1,443 @@
+@import url('../vendor/bootstrap/css/bootstrap.min.css');
+@import url('../vendor/simmerdesign/dbootstrap3/theme/dbootstrap/dbootstrap.css');
+@import url('../vendor/font-awesome/css/font-awesome.min.css');
+@import url('../vendor/sitepen/dgrid/css/dgrid.css');
+@import url('../vendor/dojo/dojo/resources/dnd.css');
+@import url('../vendor/dojo/dojox/widget/ColorPicker/ColorPicker.css');
+@import url('../vendor/dojo/dojox/form/resources/CheckedMultiSelect.css');
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+  background-color: #f5f5f5;
+}
+
+#wrap  {
+  padding: 60px 0;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 40px;
+  background: #2f2f2f;
+}
+
+#footer p {
+  margin-top: 10px;
+  padding: 0 10px;
+}
+
+#notification {
+  position: fixed;
+  top: 60px;
+  width: 100%;
+  z-index: 999;
+}
+
+#notification .alert {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.login-page .jumbotron {
+  color: #FFFFFF;
+  background: #2f2f2f;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.login-page .jumbotron h1 {
+  font-family: "Trebuchet MS", Helvetica, sans-serif
+}
+
+.login-page {
+  margin-top: -60px;
+}
+
+.login-page #notification {
+  position: relative;
+  top: 0;
+  width: auto;
+}
+
+.login-page #notification .alert {
+  width: auto;
+}
+
+.form-login {
+  max-width: 480px;
+  padding: 9px 29px 29px;
+  margin: 20px auto 20px;
+  background-color: #fff;
+  border: 1px solid #d5d5d5;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+     -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+          box-shadow: 0 1px 2px rgba(0,0,0,.05);
+}
+
+.media-browse-page, .link-browse-page {
+  margin-top: -60px;
+}
+
+label {
+  margin: 0;
+  padding-right: 5px;
+  font-weight: normal;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
+
+.navbar-fixed-top {
+  z-index: 890;
+}
+
+/* input */
+.entity-page .dijitTextBox, .principal-page .dijitTextBox,
+.entity-page .dijitSliderH {
+  width: 350px;
+  display: block;
+}
+
+.entity-page .attribute_group {
+  padding: 8px;
+  margin: 2px;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+}
+
+.entity-page .group_default {
+  background: #f1f1f1;
+}
+
+/* dgrid */
+.relation-container .dgrid {
+  height: 500px !important;
+}
+
+.relation-container .dgrid.multiplicity-1 {
+  height: 55px !important;
+}
+
+.dgrid-row:hover, .dgrid-row:hover .dgrid-cell {
+  background-color: #08c;
+}
+
+.dgrid .header-filter .dijitContentPane {
+  height: 35px;
+  font-weight: normal;
+}
+
+.dgrid .dijitTextBox {
+  width: calc(100% - 22px);
+  display: inline-block;
+}
+
+.dgrid-selected, .dgrid-selected .dgrid-cell {
+  background-color: #08c;
+}
+
+.dgrid-row:hover, .dgrid-row:hover .dgrid-cell a, .dgrid-selected .dgrid-cell a {
+  color: #fff;
+}
+
+.dgrid-cell-padding {
+  padding: 6px;
+}
+
+.dgrid-column-selector {
+  width: 25px;
+}
+
+.dgrid-loading, .dgrid-no-data {
+  color: #aaa;
+  padding: 3em;
+  text-align: center;
+}
+
+.dgrid-tree-container .dgrid-loading {
+  padding: 0;
+}
+
+.dgrid-tree-container .dgrid-no-data {
+  display: none;
+}
+
+th.field-selector, td.field-selector {
+  width: 20px;
+}
+
+th.field-oid, td.field-oid {
+  width: 30px;
+}
+
+th.field-actions-1, td.field-actions-1 {
+  width: 24px;
+}
+
+th.field-actions-2, td.field-actions-2 {
+  width: 48px;
+}
+
+th.field-actions-3, td.field-actions-3 {
+  width: 72px;
+}
+
+th.field-actions-4, td.field-actions-4 {
+  width: 96px;
+}
+
+th.field-actions-5, td.field-actions-5 {
+  width: 120px;
+}
+
+th.field-actions-6, td.field-actions-6 {
+  width: 144px;
+}
+
+.dgrid-cell {
+  text-shadow: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.dgrid-cell .btn-mini {
+  padding: 0 5px;
+  cursor: pointer;
+}
+
+.dgrid-cell.dgrid-cell-editing div {
+  /* disable scrollbars on inline editors */
+  overflow: hidden;
+}
+
+.dbootstrap .dijitCheckBox, .dbootstrap .dijitRadio {
+  color: #999;
+  padding: 0;
+  font-size: 11px;
+  line-height: 16px;
+}
+
+.dijitCheckBox, .dijitRadio, .dijitCheckBoxInput {
+  width: 15px;
+  height: 15px;
+}
+
+/* dnd */
+.dojoDndAvatarHeader {
+  background-position:3px 3px !important;
+}
+
+/* buttons */
+.btn-toolbar {
+  padding: 10px 0;
+}
+
+.btn i {
+  padding: 0 4px;
+}
+
+/* tabs */
+.nav-tabs > li .close {
+  margin: -20px 0 0 10px;
+  font-size: 18px;
+}
+
+.dbootstrap .dijitTabPaneWrapper {
+  border: none;
+  border-top: 1px solid #d5d5d5;
+}
+
+.dijitTabContent {
+  min-height: 40px !important;
+}
+
+/* containers */
+.container {
+  width: calc(100% - 20px);
+  margin-right: auto;
+  margin-left: auto;
+  *zoom: 1;
+}
+
+.container:before,
+.container:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.container:after {
+  clear: both;
+}
+
+.relation-container {
+  margin: 20px 0;
+}
+
+.padding-bottom {
+  padding-bottom: 10px;
+}
+
+/* entity form */
+.entity-form-valueCell {
+  padding: 10px 0;
+}
+
+.entity-form-valueCell div {
+  overflow: hidden;
+}
+
+.checkBoxLabel {
+  padding: 0 10px 0 5px;
+}
+
+td {
+  vertical-align: top;
+}
+
+.tableContainer-labelCell {
+  padding-top: 14px;
+}
+
+.pull-right {
+  float: right;
+}
+
+.pull-left {
+  float: left;
+}
+
+.spacer {
+  margin: 0.2em;
+}
+
+.dbootstrap .dijitContentPane {
+  padding: 0;
+}
+
+img.thumb {
+  max-height: 150px;
+}
+
+.dijitContentPane img.thumb {
+  width: auto;
+  height: 46px;
+}
+
+.dijitTooltipContainer {
+  border: 0;
+}
+
+.tabLabel img.thumb, .dgrid-content img.thumb {
+  height: 20px !important;
+}
+
+/* elfinder */
+.elfinder-cwd-view-icons .elfinder-cwd-file .elfinder-cwd-filename.ui-state-hover input {
+  color: #000 !important;
+}
+
+/* collapse navbar */
+@media (max-width: 992px) {
+  .navbar-header {
+    float: none;
+  }
+  .navbar-left,.navbar-right {
+    float: none !important;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+    display: none!important;
+  }
+  .navbar-nav {
+    float: none!important;
+    margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+    float: none;
+  }
+  .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .collapse.in {
+    display:block !important;
+  }
+  .navbar-nav .open .dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: transparent;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  .navbar-fixed-top .navbar-collapse {
+    max-height: none;
+  }
+}
+
+/*
+  Responsive table layout for form
+  http://css-tricks.com/responsive-data-tables/
+*/
+@media only screen and (max-width: 980px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+  /* Force table to not be like tables anymore */
+  .entity-form-table table, .entity-form-table thead, .entity-form-table tbody,
+  .entity-form-table th, .entity-form-table td, .entity-form-table tr {
+    display: block;
+  }
+
+  /* Hide table headers (but not display: none;, for accessibility) */
+  .entity-form-table thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  .entity-form-table td {
+    /* Behave like a "row" */
+    position: relative;
+  }
+
+  .entity-page .dijitTextBox, .principal-page .dijitTextBox {
+    width: 95%;
+  }
+}

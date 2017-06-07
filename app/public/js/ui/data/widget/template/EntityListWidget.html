@@ -1,0 +1,20 @@
+<div>
+    <div class="clearfix">
+        <div class="pull-left">
+            <h3 data-dojo-attach-point="headlineNode">${headline}</h3>
+        </div>
+        <div class="pull-right">
+            <em data-dojo-attach-point="statusNode"></em>
+        </div>
+    </div>
+    <div data-dojo-attach-point="toolbarNode"></div>
+    <div data-dojo-attach-point="gridNode"></div>
+    <div class="btn-toolbar">
+        <div class="pull-right">
+            <div data-dojo-attach-point="fileSelect" style="display: none"></div>
+            <button data-dojo-type="../../_include/widget/Button" data-dojo-props="'class':'btn btn-default'" type="submit" data-dojo-attach-point="importBtn" data-dojo-attach-event="onClick:_import">{translate:Import CSV}</button>
+            <button data-dojo-type="../../_include/widget/Button" data-dojo-props="'class':'btn btn-default'" type="submit" data-dojo-attach-point="exportBtn" data-dojo-attach-event="onClick:_export">{translate:Export CSV}</button>
+            <button data-dojo-type="../../_include/widget/Button" data-dojo-props="'class':'btn btn-primary primary'" type="submit" data-dojo-attach-point="createBtn" data-dojo-attach-event="onClick:_create">{translate:Create %0%|$typeName}</button>
+        </div>
+    </div>
+</div>

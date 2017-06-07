@@ -1,0 +1,34 @@
+<div>
+    <table class="table">
+        <tr>
+            <th>{translate:Action}</th>
+            <th>{translate:Active}</th>
+            <th>{translate:Default}</th>
+            <th>{translate:Roles}</th>
+        </tr>
+        <tr>
+            <td>{translate:Read}</td>
+            <td><div data-dojo-attach-point="readActivateCtrl"></div></td>
+            <td><div data-dojo-attach-point="readDefaultCtrl"></div></td>
+            <td><div data-dojo-attach-point="readPermCtrl"></div></td>
+        </tr>
+        <tr>
+            <td>{translate:Update}</td>
+            <td><div data-dojo-attach-point="updateActivateCtrl"></div></td>
+            <td><div data-dojo-attach-point="updateDefaultCtrl"></div></td>
+            <td><div data-dojo-attach-point="updatePermCtrl"></div></td>
+        </tr>
+        <tr>
+            <td>{translate:Delete}</td>
+            <td><div data-dojo-attach-point="deleteActivateCtrl"></div></td>
+            <td><div data-dojo-attach-point="deleteDefaultCtrl"></div></td>
+            <td><div data-dojo-attach-point="deletePermCtrl"></div></td>
+        </tr>
+        <tr>
+            <td colspan="2">{translate:Permissions for User}</td>
+            <td colspan="2"><div data-dojo-attach-point="userSelectCtrl"></div>
+                <div data-dojo-attach-point="userPermissions"></div>
+            </td>
+        </tr>
+    </table>
+</div>
