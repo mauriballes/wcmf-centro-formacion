@@ -2073,15 +2073,15 @@
                 <generalization xmi:type="uml:Generalization" xmi:id="_T3rwQEuFEeeEovrNcjL9fg" general="_ylwfELQ4EeOQ5oJFa1i8cg"/>
                 <ownedAttribute xmi:type="uml:Property" xmi:id="_m-KuYEuEEeeEovrNcjL9fg" name="nombre" type="_agg3ALQwEeOLlbB2YLI0iw" isUnique="false"/>
                 <ownedAttribute xmi:type="uml:Property" xmi:id="_qnx5YEuEEeeEovrNcjL9fg" name="capacidad" type="_dbezULQwEeOLlbB2YLI0iw" isUnique="false"/>
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_DcphMEuFEeeEovrNcjL9fg" name="horario" type="_nNP-IEuCEeeEovrNcjL9fg" association="_DcoTEEuFEeeEovrNcjL9fg">
-                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GCWYIEuFEeeEovrNcjL9fg" value="1"/>
-                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GCbQoEuFEeeEovrNcjL9fg" value="*"/>
-                </ownedAttribute>
               </packagedElement>
               <packagedElement xmi:type="uml:Association" xmi:id="_DcoTEEuFEeeEovrNcjL9fg" memberEnd="_DcphMEuFEeeEovrNcjL9fg _DcphMUuFEeeEovrNcjL9fg">
                 <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Dco6IEuFEeeEovrNcjL9fg" source="org.eclipse.papyrus">
                   <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Dco6IUuFEeeEovrNcjL9fg" key="nature" value="UML_Nature"/>
                 </eAnnotations>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_DcphMEuFEeeEovrNcjL9fg" name="horario" type="_nNP-IEuCEeeEovrNcjL9fg" association="_DcoTEEuFEeeEovrNcjL9fg">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GCWYIEuFEeeEovrNcjL9fg" value="1"/>
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GCbQoEuFEeeEovrNcjL9fg" value="*"/>
+                </ownedEnd>
               </packagedElement>
               <packagedElement xmi:type="uml:Class" xmi:id="_gg8E4EuHEeeEovrNcjL9fg" name="Kardex">
                 <generalization xmi:type="uml:Generalization" xmi:id="_nCfmAEuKEeeEovrNcjL9fg" general="_ylwfELQ4EeOQ5oJFa1i8cg"/>
