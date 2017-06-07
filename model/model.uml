@@ -2075,6 +2075,9 @@
                   <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Dco6IUuFEeeEovrNcjL9fg" key="nature" value="UML_Nature"/>
                 </eAnnotations>
               </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_gg8E4EuHEeeEovrNcjL9fg" name="Kardex">
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_tTFhsEuHEeeEovrNcjL9fg" name="fecha_registro" type="_X7HiELQwEeOLlbB2YLI0iw" isUnique="false"/>
+              </packagedElement>
             </packagedElement>
             <packagedElement xmi:type="uml:Package" xmi:id="_B7Q5IPu5EeOmMdys2glKCA" name="controller">
               <packagedElement xmi:type="uml:Class" xmi:id="_FrS1MPu5EeOmMdys2glKCA" name="RootController">
@@ -2360,4 +2363,6 @@
   <Chronos:ChiNode xmi:id="_hI0roEuEEeeEovrNcjL9fg" base_Class="_fDJ_oEuEEeeEovrNcjL9fg" display_value="nombre"/>
   <Chronos:ChiValue xmi:id="_1NkzYEuEEeeEovrNcjL9fg" is_editable="true" restrictions_match="required" base_Property="_m-KuYEuEEeeEovrNcjL9fg"/>
   <Chronos:ChiValue xmi:id="_2PvbAEuEEeeEovrNcjL9fg" db_data_type="INT" is_editable="true" restrictions_match="required" base_Property="_qnx5YEuEEeeEovrNcjL9fg"/>
+  <Chronos:ChiNode xmi:id="_j_sDsEuHEeeEovrNcjL9fg" base_Class="_gg8E4EuHEeeEovrNcjL9fg"/>
+  <Chronos:ChiValue xmi:id="_iD2zsEuIEeeEovrNcjL9fg" db_data_type="DATE" is_editable="true" input_type="date" restrictions_match="required" base_Property="_tTFhsEuHEeeEovrNcjL9fg"/>
 </xmi:XMI>
