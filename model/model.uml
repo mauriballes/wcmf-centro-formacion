@@ -2110,7 +2110,6 @@
                 <ownedAttribute xmi:type="uml:Property" xmi:id="_2KNWkEuLEeeEovrNcjL9fg" name="fecha" type="_X7HiELQwEeOLlbB2YLI0iw" isUnique="false"/>
                 <ownedAttribute xmi:type="uml:Property" xmi:id="_5fhFgEuLEeeEovrNcjL9fg" name="presencia" type="_agg3ALQwEeOLlbB2YLI0iw" isUnique="false"/>
                 <ownedAttribute xmi:type="uml:Property" xmi:id="_j-pIkkuMEeeEovrNcjL9fg" name="kardex" type="_gg8E4EuHEeeEovrNcjL9fg" association="_j-ohgEuMEeeEovrNcjL9fg"/>
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_uopNIEuMEeeEovrNcjL9fg" name="nombre_alumno" type="_agg3ALQwEeOLlbB2YLI0iw" isUnique="false"/>
               </packagedElement>
               <packagedElement xmi:type="uml:Association" xmi:id="_j-ohgEuMEeeEovrNcjL9fg" memberEnd="_j-pIkkuMEeeEovrNcjL9fg _j-pvoEuMEeeEovrNcjL9fg">
                 <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_j-pIkEuMEeeEovrNcjL9fg" source="org.eclipse.papyrus">
@@ -2406,8 +2405,7 @@
   <Chronos:ChiValue xmi:id="_iD2zsEuIEeeEovrNcjL9fg" db_data_type="DATE" is_editable="true" input_type="date" restrictions_match="required" base_Property="_tTFhsEuHEeeEovrNcjL9fg"/>
   <Chronos:ChiValueRef xmi:id="_Gp9_gEuKEeeEovrNcjL9fg" base_Property="_CobcsEuKEeeEovrNcjL9fg" reference_value="nombres" reference_type="Alumno"/>
   <Chronos:ChiValueRef xmi:id="_Lp_uYEuLEeeEovrNcjL9fg" base_Property="_IGiOsEuLEeeEovrNcjL9fg" reference_value="nombre" reference_type="Grupo"/>
-  <Chronos:ChiNode xmi:id="_w9_JUEuLEeeEovrNcjL9fg" base_Class="_u1t1QEuLEeeEovrNcjL9fg" display_value="fecha,nombre_alumno"/>
+  <Chronos:ChiNode xmi:id="_w9_JUEuLEeeEovrNcjL9fg" base_Class="_u1t1QEuLEeeEovrNcjL9fg" display_value="fecha"/>
   <Chronos:ChiValue xmi:id="_HikwkEuMEeeEovrNcjL9fg" db_data_type="DATE" is_editable="true" input_type="date" restrictions_match="required" base_Property="_2KNWkEuLEeeEovrNcjL9fg"/>
   <Chronos:ChiValue xmi:id="_Xcsq8EuMEeeEovrNcjL9fg" is_editable="true" restrictions_match="required" base_Property="_5fhFgEuLEeeEovrNcjL9fg"/>
-  <Chronos:ChiValueRef xmi:id="_yn54AEuMEeeEovrNcjL9fg" base_Property="_uopNIEuMEeeEovrNcjL9fg" reference_value="nombre_alumno" reference_type="Kardex"/>
 </xmi:XMI>
