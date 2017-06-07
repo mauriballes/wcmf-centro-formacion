@@ -341,8 +341,8 @@
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_YkUKMUtTEee-k9JiBTO3-w"/>
       <element xmi:type="uml:Generalization" href="model.uml#_YkKZMEtTEee-k9JiBTO3-w"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_YkUKMktTEee-k9JiBTO3-w" points="[776, 241, -643984, -643984]$[679, 151, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YkrWkEtTEee-k9JiBTO3-w" id="(0.0,0.0)"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_YkUKMktTEee-k9JiBTO3-w" points="[660, 210, -643984, -643984]$[667, 189, -643984, -643984]$[679, 151, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YkrWkEtTEee-k9JiBTO3-w" id="(0.30303030303030304,0.0)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_YkrWkUtTEee-k9JiBTO3-w" id="(0.9591836734693877,1.0)"/>
     </edges>
   </notation:Diagram>
