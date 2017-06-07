@@ -682,7 +682,7 @@
       </children>
       <children xmi:type="notation:DecorationNode" xmi:id="_bnXJ1EtmEee1hL0YESvRuA" type="Association_TargetRoleLabel">
         <styles xmi:type="notation:BooleanValueStyle" xmi:id="_ibJKwEtmEee1hL0YESvRuA" name="IS_UPDATED_POSITION" booleanValue="true"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_bnXJ1UtmEee1hL0YESvRuA" x="16" y="43"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_bnXJ1UtmEee1hL0YESvRuA" x="9" y="28"/>
       </children>
       <children xmi:type="notation:DecorationNode" xmi:id="_bnXJ1ktmEee1hL0YESvRuA" type="Association_SourceRoleLabel">
         <styles xmi:type="notation:BooleanValueStyle" xmi:id="_ibZCYEtmEee1hL0YESvRuA" name="IS_UPDATED_POSITION" booleanValue="true"/>
@@ -884,7 +884,7 @@
       </children>
       <children xmi:type="notation:DecorationNode" xmi:id="_s4DrOUuKEeeEovrNcjL9fg" type="Association_SourceRoleLabel">
         <styles xmi:type="notation:BooleanValueStyle" xmi:id="_t39pAEuKEeeEovrNcjL9fg" name="IS_UPDATED_POSITION" booleanValue="true"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_s4DrOkuKEeeEovrNcjL9fg" x="-62" y="18"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_s4DrOkuKEeeEovrNcjL9fg" x="-65" y="3"/>
       </children>
       <children xmi:type="notation:DecorationNode" xmi:id="_s4DrO0uKEeeEovrNcjL9fg" type="Association_SourceMultiplicityLabel">
         <styles xmi:type="notation:BooleanValueStyle" xmi:id="_t4d_UEuKEeeEovrNcjL9fg" name="IS_UPDATED_POSITION" booleanValue="true"/>
@@ -892,7 +892,7 @@
       </children>
       <children xmi:type="notation:DecorationNode" xmi:id="_s4ESQUuKEeeEovrNcjL9fg" type="Association_TargetMultiplicityLabel">
         <styles xmi:type="notation:BooleanValueStyle" xmi:id="_t4-VoEuKEeeEovrNcjL9fg" name="IS_UPDATED_POSITION" booleanValue="true"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_s4ESQkuKEeeEovrNcjL9fg" x="-61" y="-18"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_s4ESQkuKEeeEovrNcjL9fg" x="-69" y="-9"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_s4DrMUuKEeeEovrNcjL9fg"/>
       <element xmi:type="uml:Association" href="model.uml#_s3ecYEuKEeeEovrNcjL9fg"/>

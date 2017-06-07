@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.1" xmlns:xmi="http://www.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Chronos="http:///schemas/Chronos/_jAH0gM-nEd6fypAGO026Fw/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xsi:schemaLocation="http:///schemas/Chronos/_jAH0gM-nEd6fypAGO026Fw/0 chronos.profile.uml#_jARlgc-nEd6fypAGO026Fw">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Chronos="http:///schemas/Chronos/_jAH0gM-nEd6fypAGO026Fw/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/Chronos/_jAH0gM-nEd6fypAGO026Fw/0 chronos.profile.uml#_jARlgc-nEd6fypAGO026Fw">
   <uml:Model xmi:id="_ItyOULQGEeOIMOFxCilDfw" name="model">
     <packagedElement xmi:type="uml:Package" xmi:id="_e7sa8LQGEeOIMOFxCilDfw" name="wcmf test">
       <packagedElement xmi:type="uml:Package" xmi:id="_krkH0LQGEeOIMOFxCilDfw" name="root">
@@ -2032,10 +2032,6 @@
                   <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_87pu0EuDEeeEovrNcjL9fg" value="1"/>
                   <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_87wcgEuDEeeEovrNcjL9fg" value="*"/>
                 </ownedAttribute>
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_s3fDc0uKEeeEovrNcjL9fg" name="kardex" type="_gg8E4EuHEeeEovrNcjL9fg" association="_s3ecYEuKEeeEovrNcjL9fg">
-                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_93aIQEuKEeeEovrNcjL9fg"/>
-                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_93dyoEuKEeeEovrNcjL9fg" value="*"/>
-                </ownedAttribute>
               </packagedElement>
               <packagedElement xmi:type="uml:Association" xmi:id="_5IS08EtiEee1hL0YESvRuA" memberEnd="_5IV4QEtiEee1hL0YESvRuA _5IWfUEtiEee1hL0YESvRuA">
                 <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5IUqIEtiEee1hL0YESvRuA" source="org.eclipse.papyrus">
@@ -2088,12 +2084,12 @@
                 <ownedAttribute xmi:type="uml:Property" xmi:id="_tTFhsEuHEeeEovrNcjL9fg" name="fecha_registro" type="_X7HiELQwEeOLlbB2YLI0iw" isUnique="false"/>
                 <ownedAttribute xmi:type="uml:Property" xmi:id="_yEGHskuJEeeEovrNcjL9fg" name="alumno" type="_EftzcEtTEee-k9JiBTO3-w" association="_yEFgoEuJEeeEovrNcjL9fg"/>
                 <ownedAttribute xmi:type="uml:Property" xmi:id="_CobcsEuKEeeEovrNcjL9fg" name="nombre_alumno" type="_agg3ALQwEeOLlbB2YLI0iw" isUnique="false"/>
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_s3fDckuKEeeEovrNcjL9fg" name="grupo" type="_EJFbIEteEee1hL0YESvRuA" association="_s3ecYEuKEeeEovrNcjL9fg"/>
                 <ownedAttribute xmi:type="uml:Property" xmi:id="_IGiOsEuLEeeEovrNcjL9fg" name="nombre_grupo" type="_agg3ALQwEeOLlbB2YLI0iw" isUnique="false"/>
                 <ownedAttribute xmi:type="uml:Property" xmi:id="_j-pvoEuMEeeEovrNcjL9fg" name="asistencia" type="_u1t1QEuLEeeEovrNcjL9fg" association="_j-ohgEuMEeeEovrNcjL9fg">
                   <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_nyTncEuMEeeEovrNcjL9fg"/>
                   <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nyWDsEuMEeeEovrNcjL9fg" value="*"/>
                 </ownedAttribute>
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_s3fDckuKEeeEovrNcjL9fg" name="grupo" type="_EJFbIEteEee1hL0YESvRuA" association="_s3ecYEuKEeeEovrNcjL9fg"/>
               </packagedElement>
               <packagedElement xmi:type="uml:Association" xmi:id="_yEFgoEuJEeeEovrNcjL9fg" memberEnd="_yEGHskuJEeeEovrNcjL9fg _yEGuwEuJEeeEovrNcjL9fg">
                 <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yEGHsEuJEeeEovrNcjL9fg" source="org.eclipse.papyrus">
@@ -2104,17 +2100,21 @@
                 <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_s3fDcEuKEeeEovrNcjL9fg" source="org.eclipse.papyrus">
                   <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_s3fDcUuKEeeEovrNcjL9fg" key="nature" value="UML_Nature"/>
                 </eAnnotations>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_s3fDc0uKEeeEovrNcjL9fg" name="kardex" type="_gg8E4EuHEeeEovrNcjL9fg" association="_s3ecYEuKEeeEovrNcjL9fg">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_93aIQEuKEeeEovrNcjL9fg"/>
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_93dyoEuKEeeEovrNcjL9fg" value="*"/>
+                </ownedEnd>
               </packagedElement>
               <packagedElement xmi:type="uml:Class" xmi:id="_u1t1QEuLEeeEovrNcjL9fg" name="Asistencia">
                 <generalization xmi:type="uml:Generalization" xmi:id="_89a6UEuMEeeEovrNcjL9fg" general="_ylwfELQ4EeOQ5oJFa1i8cg"/>
                 <ownedAttribute xmi:type="uml:Property" xmi:id="_2KNWkEuLEeeEovrNcjL9fg" name="fecha" type="_X7HiELQwEeOLlbB2YLI0iw" isUnique="false"/>
                 <ownedAttribute xmi:type="uml:Property" xmi:id="_5fhFgEuLEeeEovrNcjL9fg" name="presencia" type="_agg3ALQwEeOLlbB2YLI0iw" isUnique="false"/>
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_j-pIkkuMEeeEovrNcjL9fg" name="kardex" type="_gg8E4EuHEeeEovrNcjL9fg" association="_j-ohgEuMEeeEovrNcjL9fg"/>
               </packagedElement>
               <packagedElement xmi:type="uml:Association" xmi:id="_j-ohgEuMEeeEovrNcjL9fg" memberEnd="_j-pIkkuMEeeEovrNcjL9fg _j-pvoEuMEeeEovrNcjL9fg">
                 <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_j-pIkEuMEeeEovrNcjL9fg" source="org.eclipse.papyrus">
                   <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_j-pIkUuMEeeEovrNcjL9fg" key="nature" value="UML_Nature"/>
                 </eAnnotations>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_j-pIkkuMEeeEovrNcjL9fg" name="kardex" type="_gg8E4EuHEeeEovrNcjL9fg" association="_j-ohgEuMEeeEovrNcjL9fg"/>
               </packagedElement>
             </packagedElement>
             <packagedElement xmi:type="uml:Package" xmi:id="_B7Q5IPu5EeOmMdys2glKCA" name="controller">
