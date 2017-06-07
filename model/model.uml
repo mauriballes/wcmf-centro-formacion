@@ -2009,7 +2009,7 @@
                 <ownedAttribute xmi:type="uml:Property" xmi:id="_Qt6ZMEtUEee-k9JiBTO3-w" name="nombres" type="_agg3ALQwEeOLlbB2YLI0iw" isUnique="false"/>
                 <ownedAttribute xmi:type="uml:Property" xmi:id="_gNKVcEtUEee-k9JiBTO3-w" name="fecha_contrato" type="_X7HiELQwEeOLlbB2YLI0iw" isUnique="false"/>
                 <ownedAttribute xmi:type="uml:Property" xmi:id="_me9qsEtUEee-k9JiBTO3-w" name="telefono" type="_dbezULQwEeOLlbB2YLI0iw" isUnique="false"/>
-                <ownedAttribute xmi:type="uml:Property" xmi:id="_5IWfUEtiEee1hL0YESvRuA" name="grupo" type="_EJFbIEteEee1hL0YESvRuA" aggregation="composite" association="_5IS08EtiEee1hL0YESvRuA">
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_5IWfUEtiEee1hL0YESvRuA" name="grupo" type="_EJFbIEteEee1hL0YESvRuA" association="_5IS08EtiEee1hL0YESvRuA">
                   <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OmtMYEtlEee1hL0YESvRuA" value="1"/>
                   <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Om29YEtlEee1hL0YESvRuA" value="*"/>
                 </ownedAttribute>
@@ -2022,10 +2022,24 @@
                   <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_J8SEoEtlEee1hL0YESvRuA" value="1"/>
                   <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_J8aAcEtlEee1hL0YESvRuA" value="1"/>
                 </ownedAttribute>
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_bnBLkEtmEee1hL0YESvRuA" name="materia" type="_sAM18EtlEee1hL0YESvRuA" association="_bm_9cEtmEee1hL0YESvRuA"/>
               </packagedElement>
               <packagedElement xmi:type="uml:Association" xmi:id="_5IS08EtiEee1hL0YESvRuA" memberEnd="_5IV4QEtiEee1hL0YESvRuA _5IWfUEtiEee1hL0YESvRuA">
                 <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5IUqIEtiEee1hL0YESvRuA" source="org.eclipse.papyrus">
                   <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5IVRMEtiEee1hL0YESvRuA" key="nature" value="UML_Nature"/>
+                </eAnnotations>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_sAM18EtlEee1hL0YESvRuA" name="Materia">
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_4-FosEtlEee1hL0YESvRuA" name="nombre" type="_agg3ALQwEeOLlbB2YLI0iw" isUnique="false"/>
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_-RJdwEtlEee1hL0YESvRuA" name="descripcion" type="_agg3ALQwEeOLlbB2YLI0iw" isUnique="false"/>
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_bnAkgktmEee1hL0YESvRuA" name="grupo" type="_EJFbIEteEee1hL0YESvRuA" association="_bm_9cEtmEee1hL0YESvRuA">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ffOMMEtmEee1hL0YESvRuA" value="1"/>
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ffR2kEtmEee1hL0YESvRuA" value="*"/>
+                </ownedAttribute>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_bm_9cEtmEee1hL0YESvRuA" memberEnd="_bnAkgktmEee1hL0YESvRuA _bnBLkEtmEee1hL0YESvRuA">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bnAkgEtmEee1hL0YESvRuA" source="org.eclipse.papyrus">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_bnAkgUtmEee1hL0YESvRuA" key="nature" value="UML_Nature"/>
                 </eAnnotations>
               </packagedElement>
             </packagedElement>
@@ -2299,7 +2313,10 @@
   <Chronos:ChiValue xmi:id="_rfrykEtUEee-k9JiBTO3-w" db_data_type="INT" is_editable="true" restrictions_match="required" base_Property="_apZK4EtUEee-k9JiBTO3-w"/>
   <Chronos:ChiValue xmi:id="_sYDlAEtUEee-k9JiBTO3-w" db_data_type="DATE" is_editable="true" input_type="date" restrictions_match="date" base_Property="_gNKVcEtUEee-k9JiBTO3-w"/>
   <Chronos:ChiValue xmi:id="_tVBjkEtUEee-k9JiBTO3-w" db_data_type="INT" is_editable="true" restrictions_match="required" base_Property="_me9qsEtUEee-k9JiBTO3-w"/>
-  <Chronos:ChiNode xmi:id="_GnGVsEteEee1hL0YESvRuA" base_Class="_EJFbIEteEee1hL0YESvRuA"/>
+  <Chronos:ChiNode xmi:id="_GnGVsEteEee1hL0YESvRuA" base_Class="_EJFbIEteEee1hL0YESvRuA" display_value=""/>
   <Chronos:ChiValue xmi:id="_S9LhkEteEee1hL0YESvRuA" is_editable="true" restrictions_match="required" base_Property="_JtTRoEteEee1hL0YESvRuA"/>
   <Chronos:ChiValue xmi:id="_pknogEteEee1hL0YESvRuA" db_data_type="INT" is_editable="true" restrictions_match="required" base_Property="_lB_x4EteEee1hL0YESvRuA"/>
+  <Chronos:ChiNode xmi:id="_vUnNAEtlEee1hL0YESvRuA" base_Class="_sAM18EtlEee1hL0YESvRuA" display_value="nombre"/>
+  <Chronos:ChiValue xmi:id="_FnARAEtmEee1hL0YESvRuA" is_editable="true" restrictions_match="required" base_Property="_4-FosEtlEee1hL0YESvRuA"/>
+  <Chronos:ChiValue xmi:id="_HBLI8EtmEee1hL0YESvRuA" is_editable="true" restrictions_match="required" base_Property="_-RJdwEtlEee1hL0YESvRuA"/>
 </xmi:XMI>
