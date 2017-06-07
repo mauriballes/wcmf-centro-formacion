@@ -2089,6 +2089,7 @@
                 <ownedAttribute xmi:type="uml:Property" xmi:id="_yEGHskuJEeeEovrNcjL9fg" name="alumno" type="_EftzcEtTEee-k9JiBTO3-w" association="_yEFgoEuJEeeEovrNcjL9fg"/>
                 <ownedAttribute xmi:type="uml:Property" xmi:id="_CobcsEuKEeeEovrNcjL9fg" name="nombre_alumno" type="_agg3ALQwEeOLlbB2YLI0iw" isUnique="false"/>
                 <ownedAttribute xmi:type="uml:Property" xmi:id="_s3fDckuKEeeEovrNcjL9fg" name="grupo" type="_EJFbIEteEee1hL0YESvRuA" association="_s3ecYEuKEeeEovrNcjL9fg"/>
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_IGiOsEuLEeeEovrNcjL9fg" name="nombre_grupo" type="_agg3ALQwEeOLlbB2YLI0iw" isUnique="false"/>
               </packagedElement>
               <packagedElement xmi:type="uml:Association" xmi:id="_yEFgoEuJEeeEovrNcjL9fg" memberEnd="_yEGHskuJEeeEovrNcjL9fg _yEGuwEuJEeeEovrNcjL9fg">
                 <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yEGHsEuJEeeEovrNcjL9fg" source="org.eclipse.papyrus">
@@ -2385,7 +2386,8 @@
   <Chronos:ChiNode xmi:id="_hI0roEuEEeeEovrNcjL9fg" base_Class="_fDJ_oEuEEeeEovrNcjL9fg" display_value="nombre"/>
   <Chronos:ChiValue xmi:id="_1NkzYEuEEeeEovrNcjL9fg" is_editable="true" restrictions_match="required" base_Property="_m-KuYEuEEeeEovrNcjL9fg"/>
   <Chronos:ChiValue xmi:id="_2PvbAEuEEeeEovrNcjL9fg" db_data_type="INT" is_editable="true" restrictions_match="required" base_Property="_qnx5YEuEEeeEovrNcjL9fg"/>
-  <Chronos:ChiNode xmi:id="_j_sDsEuHEeeEovrNcjL9fg" base_Class="_gg8E4EuHEeeEovrNcjL9fg" display_value="fecha_registro"/>
+  <Chronos:ChiNode xmi:id="_j_sDsEuHEeeEovrNcjL9fg" base_Class="_gg8E4EuHEeeEovrNcjL9fg" display_value="fecha_registro,nombre_alumno,nombre_grupo"/>
   <Chronos:ChiValue xmi:id="_iD2zsEuIEeeEovrNcjL9fg" db_data_type="DATE" is_editable="true" input_type="date" restrictions_match="required" base_Property="_tTFhsEuHEeeEovrNcjL9fg"/>
   <Chronos:ChiValueRef xmi:id="_Gp9_gEuKEeeEovrNcjL9fg" base_Property="_CobcsEuKEeeEovrNcjL9fg" reference_value="nombres" reference_type="Alumno"/>
+  <Chronos:ChiValueRef xmi:id="_Lp_uYEuLEeeEovrNcjL9fg" base_Property="_IGiOsEuLEeeEovrNcjL9fg" reference_value="nombre" reference_type="Grupo"/>
 </xmi:XMI>

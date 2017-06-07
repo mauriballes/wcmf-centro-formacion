@@ -480,6 +480,10 @@
           <element xmi:type="uml:Property" href="model.uml#_CobcsEuKEeeEovrNcjL9fg"/>
           <layoutConstraint xmi:type="notation:Location" xmi:id="_CpHZMUuKEeeEovrNcjL9fg"/>
         </children>
+        <children xmi:type="notation:Shape" xmi:id="_IHPZUEuLEeeEovrNcjL9fg" type="Property_ClassAttributeLabel">
+          <element xmi:type="uml:Property" href="model.uml#_IGiOsEuLEeeEovrNcjL9fg"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_IHPZUUuLEeeEovrNcjL9fg"/>
+        </children>
         <styles xmi:type="notation:TitleStyle" xmi:id="_gg96FEuHEeeEovrNcjL9fg"/>
         <styles xmi:type="notation:SortingStyle" xmi:id="_gg96FUuHEeeEovrNcjL9fg"/>
         <styles xmi:type="notation:FilteringStyle" xmi:id="_gg96FkuHEeeEovrNcjL9fg"/>
