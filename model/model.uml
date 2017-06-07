@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Chronos="http:///schemas/Chronos/_jAH0gM-nEd6fypAGO026Fw/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/Chronos/_jAH0gM-nEd6fypAGO026Fw/0 chronos.profile.uml#_jARlgc-nEd6fypAGO026Fw">
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://www.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Chronos="http:///schemas/Chronos/_jAH0gM-nEd6fypAGO026Fw/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xsi:schemaLocation="http:///schemas/Chronos/_jAH0gM-nEd6fypAGO026Fw/0 chronos.profile.uml#_jARlgc-nEd6fypAGO026Fw">
   <uml:Model xmi:id="_ItyOULQGEeOIMOFxCilDfw" name="model">
     <packagedElement xmi:type="uml:Package" xmi:id="_e7sa8LQGEeOIMOFxCilDfw" name="wcmf test">
       <packagedElement xmi:type="uml:Package" xmi:id="_krkH0LQGEeOIMOFxCilDfw" name="root">
@@ -2405,7 +2405,7 @@
   <Chronos:ChiValue xmi:id="_iD2zsEuIEeeEovrNcjL9fg" db_data_type="DATE" is_editable="true" input_type="date" restrictions_match="required" base_Property="_tTFhsEuHEeeEovrNcjL9fg"/>
   <Chronos:ChiValueRef xmi:id="_Gp9_gEuKEeeEovrNcjL9fg" base_Property="_CobcsEuKEeeEovrNcjL9fg" reference_value="nombres" reference_type="Alumno"/>
   <Chronos:ChiValueRef xmi:id="_Lp_uYEuLEeeEovrNcjL9fg" base_Property="_IGiOsEuLEeeEovrNcjL9fg" reference_value="nombre" reference_type="Grupo"/>
-  <Chronos:ChiNode xmi:id="_w9_JUEuLEeeEovrNcjL9fg" base_Class="_u1t1QEuLEeeEovrNcjL9fg" display_value="fecha"/>
+  <Chronos:ChiNode xmi:id="_w9_JUEuLEeeEovrNcjL9fg" base_Class="_u1t1QEuLEeeEovrNcjL9fg" display_value="fecha,presencia"/>
   <Chronos:ChiValue xmi:id="_HikwkEuMEeeEovrNcjL9fg" db_data_type="DATE" is_editable="true" input_type="date" restrictions_match="required" base_Property="_2KNWkEuLEeeEovrNcjL9fg"/>
   <Chronos:ChiValue xmi:id="_Xcsq8EuMEeeEovrNcjL9fg" is_editable="true" restrictions_match="required" base_Property="_5fhFgEuLEeeEovrNcjL9fg"/>
 </xmi:XMI>
