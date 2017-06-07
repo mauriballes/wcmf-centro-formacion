@@ -28,7 +28,7 @@
                 <ownedAttribute xmi:type="uml:Property" xmi:id="_86xZi6prEeaGbp23C_zkpg" name="color" visibility="public" type="_agg3ALQwEeOLlbB2YLI0iw">
                   <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_86xZjKprEeaGbp23C_zkpg" value="1"/>
                   <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_86xZjaprEeaGbp23C_zkpg" value="1"/>
-                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_86xZjqprEeaGbp23C_zkpg" value="#333333"/>
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_86xZjqprEeaGbp23C_zkpg" value="#0A57CB"/>
                 </ownedAttribute>
                 <ownedAttribute xmi:type="uml:Property" xmi:id="_86xZj6prEeaGbp23C_zkpg" name="rootTypes" visibility="public" type="_agg3ALQwEeOLlbB2YLI0iw">
                   <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_86xZkKprEeaGbp23C_zkpg" value="1"/>
