@@ -2024,6 +2024,10 @@
                   <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_J8aAcEtlEee1hL0YESvRuA" value="1"/>
                 </ownedAttribute>
                 <ownedAttribute xmi:type="uml:Property" xmi:id="_bnBLkEtmEee1hL0YESvRuA" name="materia" type="_sAM18EtlEee1hL0YESvRuA" association="_bm_9cEtmEee1hL0YESvRuA"/>
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_5vtXQUuDEeeEovrNcjL9fg" name="horario" type="_nNP-IEuCEeeEovrNcjL9fg" aggregation="composite" association="_5vq7AEuDEeeEovrNcjL9fg">
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_87pu0EuDEeeEovrNcjL9fg" value="1"/>
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_87wcgEuDEeeEovrNcjL9fg" value="*"/>
+                </ownedAttribute>
               </packagedElement>
               <packagedElement xmi:type="uml:Association" xmi:id="_5IS08EtiEee1hL0YESvRuA" memberEnd="_5IV4QEtiEee1hL0YESvRuA _5IWfUEtiEee1hL0YESvRuA">
                 <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5IUqIEtiEee1hL0YESvRuA" source="org.eclipse.papyrus">
@@ -2045,9 +2049,16 @@
                 </eAnnotations>
               </packagedElement>
               <packagedElement xmi:type="uml:Class" xmi:id="_nNP-IEuCEeeEovrNcjL9fg" name="Horario">
+                <generalization xmi:type="uml:Generalization" xmi:id="_xzS6UEuDEeeEovrNcjL9fg" general="_ylwfELQ4EeOQ5oJFa1i8cg"/>
                 <ownedAttribute xmi:type="uml:Property" xmi:id="_8fyusEuCEeeEovrNcjL9fg" name="dia" type="_agg3ALQwEeOLlbB2YLI0iw" isUnique="false"/>
                 <ownedAttribute xmi:type="uml:Property" xmi:id="_vRzDYEuCEeeEovrNcjL9fg" name="hora_ingreso" type="_agg3ALQwEeOLlbB2YLI0iw" isUnique="false"/>
                 <ownedAttribute xmi:type="uml:Property" xmi:id="_5OCDAEuCEeeEovrNcjL9fg" name="hora_salida" type="_agg3ALQwEeOLlbB2YLI0iw" isUnique="false"/>
+                <ownedAttribute xmi:type="uml:Property" xmi:id="_5vtXQEuDEeeEovrNcjL9fg" name="grupo" type="_EJFbIEteEee1hL0YESvRuA" association="_5vq7AEuDEeeEovrNcjL9fg"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_5vq7AEuDEeeEovrNcjL9fg" memberEnd="_5vtXQEuDEeeEovrNcjL9fg _5vtXQUuDEeeEovrNcjL9fg">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5vsJIEuDEeeEovrNcjL9fg" source="org.eclipse.papyrus">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5vswMEuDEeeEovrNcjL9fg" key="nature" value="UML_Nature"/>
+                </eAnnotations>
               </packagedElement>
             </packagedElement>
             <packagedElement xmi:type="uml:Package" xmi:id="_B7Q5IPu5EeOmMdys2glKCA" name="controller">
