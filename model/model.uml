@@ -2314,7 +2314,7 @@
   <Chronos:ChiValue xmi:id="_rfrykEtUEee-k9JiBTO3-w" db_data_type="INT" is_editable="true" restrictions_match="required" base_Property="_apZK4EtUEee-k9JiBTO3-w"/>
   <Chronos:ChiValue xmi:id="_sYDlAEtUEee-k9JiBTO3-w" db_data_type="DATE" is_editable="true" input_type="date" restrictions_match="date" base_Property="_gNKVcEtUEee-k9JiBTO3-w"/>
   <Chronos:ChiValue xmi:id="_tVBjkEtUEee-k9JiBTO3-w" db_data_type="INT" is_editable="true" restrictions_match="required" base_Property="_me9qsEtUEee-k9JiBTO3-w"/>
-  <Chronos:ChiNode xmi:id="_GnGVsEteEee1hL0YESvRuA" base_Class="_EJFbIEteEee1hL0YESvRuA" display_value=""/>
+  <Chronos:ChiNode xmi:id="_GnGVsEteEee1hL0YESvRuA" base_Class="_EJFbIEteEee1hL0YESvRuA" display_value="nombre_materia,nombre"/>
   <Chronos:ChiValue xmi:id="_S9LhkEteEee1hL0YESvRuA" is_editable="true" restrictions_match="required" base_Property="_JtTRoEteEee1hL0YESvRuA"/>
   <Chronos:ChiValue xmi:id="_pknogEteEee1hL0YESvRuA" db_data_type="INT" is_editable="true" restrictions_match="required" base_Property="_lB_x4EteEee1hL0YESvRuA"/>
   <Chronos:ChiNode xmi:id="_vUnNAEtlEee1hL0YESvRuA" base_Class="_sAM18EtlEee1hL0YESvRuA" display_value="nombre"/>
